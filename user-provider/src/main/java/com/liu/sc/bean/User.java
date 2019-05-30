@@ -18,6 +18,7 @@ public class User implements Serializable {
     @NotEmpty(message = ValidContant.NAME_NOT_NULL)
     private String userName;
     private String name;
+    private String pwd;
     private Integer age;
     private BigDecimal balance;
 }
