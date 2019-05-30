@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/liurunkai/config-repo
+          username: liurunkai
+          password: lrk291988731
+          basedir: D:\ideaWorkSpace\config-sc

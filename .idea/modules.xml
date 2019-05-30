@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/docs/docs.iml" filepath="$PROJECT_DIR$/docs/docs.iml" />
       <module fileurl="file://$PROJECT_DIR$/flyway/flyway.iml" filepath="$PROJECT_DIR$/flyway/flyway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-provider/user-provider.iml" filepath="$PROJECT_DIR$/user-provider/user-provider.iml" />
     </modules>
   </component>
 </project>

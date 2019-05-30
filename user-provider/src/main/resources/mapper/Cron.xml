@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.liu.sc.dao.CronDao">
+
+    <sql id="selectCron">
+        t.id,
+        t.cron,
+        t.type
+    </sql>
+
+    <select id="getCronByType" parameterType="java.lang.Integer" resultType="com.liu.sc.bean.Cron">
+        SELECT
+            <include refid="selectCron"/>
+        FROM sc_cron t
+        WHERE t.type = #{type}
+    </select>
+</mapper>
