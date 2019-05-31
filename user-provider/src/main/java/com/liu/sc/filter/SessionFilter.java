@@ -1,6 +1,7 @@
 package com.liu.sc.filter;
 
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.*;
 import javax.servlet.FilterConfig;
@@ -8,6 +9,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @Description: 过滤器实现登录拦截
@@ -47,6 +50,7 @@ public class SessionFilter implements Filter {
                 //说明是登录状态，不需要拦截
                 filterChain.doFilter(servletRequest,servletResponse);
             }else{
+                //servletRequest.getRequestDispatcher("/failed").forward(servletRequest, servletResponse);
                 String requestType = request.getHeader("X-Requested-With");
                 //判断是否是ajax请求
                 if(requestType!=null && "XMLHttpRequest".equals(requestType)){
@@ -75,6 +79,15 @@ public class SessionFilter implements Filter {
             }
         }
         return true;
+    }
+
+    @RequestMapping("/failed")
+    public Map<String, String> requestFailed() {
+
+        Map<String, String> map = new HashMap<>();
+        map.put("code", "-1");
+        map.put("msg", "请求错误");
+        return map;
     }
 
     @Override
