@@ -17,8 +17,11 @@ public class UserController {
 
     @Autowired
     private UserService userService;
-//    @Autowired
-//    private DiscoveryClient discoveryClient;
+
+    @GetMapping("test")
+    public void test(){
+        log.info("测试初始一些日志吧！");
+    }
 
     @ResponseBody
     @GetMapping(value = "/getUserById/{id}")

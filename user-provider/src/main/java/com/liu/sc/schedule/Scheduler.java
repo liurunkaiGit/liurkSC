@@ -27,10 +27,10 @@ public class Scheduler {
     private UserService userService;
 
     //@Scheduled(cron = "0/2 * * * * *") 也可以使用表达式
-    @Scheduled(fixedDelay = 2000)
+    /*@Scheduled(fixedDelay = 2000)
     public void findUserList(){
         User user = new User();
         List<User> userList = this.userService.findUserList(user);
         log.info("当前时间是{},用户量是{}",new Date(),userList.size());
-    }
+    }*/
 }

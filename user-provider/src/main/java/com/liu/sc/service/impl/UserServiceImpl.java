@@ -21,7 +21,7 @@ public class UserServiceImpl implements UserService{
     @Autowired
     private UserDao userDao;
 
-    @Async
+//    @Async
     @Override
     @Transactional(propagation = Propagation.NOT_SUPPORTED,readOnly = true)
     public User getUserById(Long id) {
