@@ -18,11 +18,6 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @GetMapping("test")
-    public void test(){
-        log.info("测试初始一些日志吧！");
-    }
-
     @ResponseBody
     @GetMapping(value = "/getUserById/{id}")
     public User getUserById(@PathVariable Long id){

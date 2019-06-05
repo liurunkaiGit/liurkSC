@@ -15,19 +15,10 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @MapperScan("com.liu.sc.dao")
 //启用定时任务功能,作用是发现注解@scheduled的任务并开始执行
 @EnableScheduling
-public class UserProviderApplication implements CommandLineRunner {
+public class UserProviderApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(UserProviderApplication.class, args);
     }
 
-    @Override
-    public void run(String... args) throws Exception {
-        Logger logger = LoggerFactory.getLogger(UserProviderApplication.class);
-        logger.info("测试log");
-
-        for (int i = 0; i < 10; i++) {
-            logger.error("something wrong. id={}; name=Ryan-{};", i, i);
-        }
-    }
 }
