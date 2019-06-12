@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.liu.sc.dao.UserDao">
+
+    <resultMap id="userResult" type="com.liu.sc.bean.User">
+        <id column="id" property="id" jdbcType="BIGINT"></id>
+        <result column="name" property="name" jdbcType="VARCHAR"></result>
+        <result column="user_name" property="userName" jdbcType="VARCHAR"></result>
+        <result column="age" property="age" jdbcType="INTEGER"></result>
+        <result column="balance" property="balance" jdbcType="DECIMAL"></result>
+    </resultMap>
+
+    <sql id="selectUser">
+        u.id,
+        u.user_name,
+        u.name,
+        u.age,
+        u.balance
+    </sql>
+
+    <sql id="WHERE">
+        <if test="name != null and name != ''">
+            AND u.name like CONCAT ('%',CONCAT(#{name},'%'))
+        </if>
+        <if test="userName != null and userName != ''">
+            AND u.user_name like CONCAT ('%',CONCAT(#{userName},'%'))
+        </if>
+    </sql>
+
+    <select id="getUserById" parameterType="java.lang.Long" resultMap="userResult">
+        SELECT
+        <include refid="selectUser"/>
+        FROM user u
+        WHERE u.id = #{id}
+    </select>
+
+    <select id="findUserList" parameterType="com.liu.sc.bean.User" resultMap="userResult">
+        SELECT
+        <include refid="selectUser"/>
+        FROM user u
+        <if test="_parameter != null">
+            WHERE 1=1
+            <include refid="WHERE"/>
+        </if>
+    </select>
+
+    <insert id="addUser" useGeneratedKeys="true" keyColumn="id" keyProperty="id" parameterType="com.liu.sc.bean.User">
+        insert into user(user_name,name,age,balance,create_time)
+        values(#{userName,jdbcType=VARCHAR},#{name,jdbcType=VARCHAR},#{age,jdbcType=INTEGER},#{balance,jdbcType=DECIMAL},now())
+    </insert>
+</mapper>
