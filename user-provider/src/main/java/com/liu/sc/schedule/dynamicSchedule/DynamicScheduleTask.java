@@ -17,7 +17,7 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 /**
- * @Description:
+ * @Description: 实现定时任务动态定时，修改了数据库的cron表达式自动生效
  * @Author:W_LIURUNKAI
  * @Date:2019/6/12 10:39
  */

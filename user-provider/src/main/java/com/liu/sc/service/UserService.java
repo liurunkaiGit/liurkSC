@@ -19,6 +19,6 @@ public interface UserService {
      */
     List<User> findUserList(User user);
 
-    void addUser(User user);
+    User addUser(User user);
 
 }

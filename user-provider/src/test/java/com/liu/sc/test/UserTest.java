@@ -25,4 +25,9 @@ public class UserTest extends BaseTest {
         User userById = userService.getUserById(1l);
         log.info("===========end test ===============");
     }
+
+    @Test
+    public void test(){
+        System.out.println(1);
+    }
 }
