@@ -11,4 +11,6 @@ public interface UserDao {
     User getUserById(Long id);
 
     List<User> findUserList(User user);
+
+    void addUser(User user);
 }

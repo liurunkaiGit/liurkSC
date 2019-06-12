@@ -11,6 +11,7 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import sun.rmi.runtime.Log;
 
+import javax.jws.soap.SOAPBinding;
 import java.util.List;
 
 @Slf4j
@@ -33,5 +34,10 @@ public class UserServiceImpl implements UserService{
     @Transactional(propagation = Propagation.NOT_SUPPORTED,readOnly = true)
     public List<User> findUserList(User user) {
         return this.userDao.findUserList(user);
+    }
+
+    @Override
+    public void addUser(User user) {
+        this.userDao.addUser(user);
     }
 }

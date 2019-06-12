@@ -31,7 +31,7 @@
 
     <select id="getUserById" parameterType="java.lang.Long" resultMap="userResult">
         SELECT
-            <include refid="selectUser"/>
+        <include refid="selectUser"/>
         FROM user u
         WHERE u.id = #{id}
     </select>
@@ -45,4 +45,9 @@
             <include refid="WHERE"/>
         </if>
     </select>
+
+    <insert id="addUser" useGeneratedKeys="true" keyColumn="id" keyProperty="id" parameterType="com.liu.sc.bean.User">
+        insert into user(user_name,name,age,balance,create_time)
+        values(#{userName,jdbcType=VARCHAR},#{name,jdbcType=VARCHAR},#{age,jdbcType=INTEGER},#{balance,jdbcType=DECIMAL},now())
+    </insert>
 </mapper>
