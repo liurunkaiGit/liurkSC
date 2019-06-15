@@ -15,10 +15,8 @@ import org.springframework.scheduling.config.TriggerTask;
 import org.springframework.scheduling.support.CronTrigger;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
 import java.math.BigDecimal;
 import java.util.Date;
-import java.util.List;
 import java.util.Set;
 
 @RestController
@@ -50,7 +48,7 @@ public class UserController {
     @GetMapping("/testDynamicSchedule")
     public void testDynamicSchedule(){
         User user = new User();
-        Long balance = 1L;
+        long balance = 1L;
         user.setBalance(BigDecimal.valueOf(balance));
         user.setAge(11);
         user.setUserName("111");
@@ -73,8 +71,7 @@ public class UserController {
                         CronExpression.isValidExpression(cron1.getCron());
                         //定时任务触发，可修改定时任务的执行周期
                         CronTrigger cronTrigger = new CronTrigger(cron1.getCron());
-                        Date nextExecutionTime = cronTrigger.nextExecutionTime(triggerContext);
-                        return nextExecutionTime;
+                        return cronTrigger.nextExecutionTime(triggerContext);
                     }
                 }));
     }
@@ -83,7 +80,7 @@ public class UserController {
     public void testDynamicSchedule2(){
         Cron cron2 = cronService.getCronByType(2);
         User user2 = new User();
-        Long balance2 = 2L;
+        long balance2 = 2L;
         user2.setBalance(BigDecimal.valueOf(balance2));
         user2.setAge(22);
         user2.setUserName("222");

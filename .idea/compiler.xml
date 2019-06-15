@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="config-server" />
-        <module name="microservice-simple-provider-user" />
-        <module name="config-client" />
         <module name="dynamic-more-schedule" />
+        <module name="config-server" />
+        <module name="config-client" />
+        <module name="microservice-simple-provider-user (1)" />
+        <module name="microservice-simple-provider-user (2)" />
+        <module name="microservice-simple-provider-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +19,8 @@
       <module name="config-server" target="1.8" />
       <module name="dynamic-more-schedule" target="1.8" />
       <module name="microservice-simple-provider-user" target="1.8" />
+      <module name="microservice-simple-provider-user (1)" target="1.8" />
+      <module name="microservice-simple-provider-user (2)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

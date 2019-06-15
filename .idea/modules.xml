@@ -3,10 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/dynamic-more-schedule/dynamic-more-schedule.iml" filepath="$PROJECT_DIR$/dynamic-more-schedule/dynamic-more-schedule.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/liurkSC.iml" filepath="$PROJECT_DIR$/.idea/liurkSC.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-provider/microservice-simple-provider-user.iml" filepath="$PROJECT_DIR$/user-provider/microservice-simple-provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dynamic-more-schedule/microservice-simple-provider-user (1).iml" filepath="$PROJECT_DIR$/dynamic-more-schedule/microservice-simple-provider-user (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-provider/microservice-simple-provider-user (2).iml" filepath="$PROJECT_DIR$/user-provider/microservice-simple-provider-user (2).iml" />
     </modules>
   </component>
 </project>
