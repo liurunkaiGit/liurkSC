@@ -33,20 +33,20 @@ public class UserController {
 
     @ResponseBody
     @GetMapping(value = "/getUserById/{id}")
-    public User getUserById(@PathVariable Long id){
+    public User getUserById(@PathVariable Long id) {
         try {
             User user = this.userService.getUserById(id);
-            log.info("user is {}",user);
+            log.info("user is {}", user);
             return user;
         } catch (Exception e) {
-            log.error("发生异常{}",e.getMessage());
+            log.error("发生异常{}", e.getMessage());
             e.printStackTrace();
             throw new RuntimeException(e.getMessage());
         }
     }
 
     @GetMapping("/testDynamicSchedule")
-    public void testDynamicSchedule(){
+    public void testDynamicSchedule() {
         User user = new User();
         long balance = 1L;
         user.setBalance(BigDecimal.valueOf(balance));
@@ -65,7 +65,7 @@ public class UserController {
                     public Date nextExecutionTime(TriggerContext triggerContext) {
                         Cron cron1 = cronService.getCronByType(1);
                         // 验证cron表达式
-                        if("".equals(cron1.getCron()) || cron1.getCron() == null){
+                        if ("".equals(cron1.getCron()) || cron1.getCron() == null) {
                             throw new SchedulingException("cron is null");
                         }
                         CronExpression.isValidExpression(cron1.getCron());
@@ -77,7 +77,7 @@ public class UserController {
     }
 
     @GetMapping("/testDynamicSchedule2")
-    public void testDynamicSchedule2(){
+    public void testDynamicSchedule2() {
         Cron cron2 = cronService.getCronByType(2);
         User user2 = new User();
         long balance2 = 2L;
@@ -90,15 +90,15 @@ public class UserController {
                     @Override
                     public void run() {
                         User user = userService.addUser(user2);
-                        log.info("userId is {}",user.getId());
+                        log.info("userId is {}", user.getId());
                     }
                 }, new CronTrigger(cron2.getCron())));
     }
 
     @GetMapping("/testCancelSchedule")
-    public void testCancelSchedule(){
+    public void testCancelSchedule() {
         Set<String> ids = defaultSchedulingConfigurer.taskIds();
-        log.info("ids is {}",ids);
+        log.info("ids is {}", ids);
         defaultSchedulingConfigurer.cancelTriggerTask(String.valueOf(1));
     }
 
