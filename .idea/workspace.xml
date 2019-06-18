@@ -5,11 +5,9 @@
     <bookmark url="file://$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/stream/testStream.java" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d19c5857-920a-4dfa-82fb-e49e02a9041e" name="Default Changelist" comment="动态添加和取消定时任务">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="d19c5857-920a-4dfa-82fb-e49e02a9041e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/learnDoc/git将项目上传到远程git仓库.docx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/learnDoc/git将项目上传到远程git仓库.docx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/flyway/target/" />
     <ignored path="$PROJECT_DIR$/docs/target/" />
@@ -31,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+            <state relative-caret-position="7">
+              <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2075">
+            <state relative-caret-position="151">
               <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
             </state>
           </provider>
@@ -52,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/dynamicSchedule/DynamicScheduleTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
+            <state relative-caret-position="-248">
               <caret line="34" column="45" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="45" />
             </state>
           </provider>
@@ -61,12 +59,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/utils/DefaultSchedulingConfigurer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="875">
+            <state relative-caret-position="42">
               <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1064#1065#0" expanded="true" />
                 <element signature="e#1114#1115#0" expanded="true" />
+                <element signature="e#1121#1151#0" expanded="true" />
                 <element signature="e#2693#2694#0" expanded="true" />
                 <element signature="e#2736#2737#0" expanded="true" />
                 <element signature="e#2811#2812#0" expanded="true" />
@@ -186,16 +185,15 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="y" value="1" />
+    <option name="width" value="1040" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,10 +201,22 @@
               <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
               <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="learnDoc" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -220,11 +230,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/learnDoc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dynamic-more-schedule/src/main/resources" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -299,11 +309,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.UserController" />
       <item itemvalue="Spring Boot.ConfigClientApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.DynamicMoreScheduleApplication" />
       <item itemvalue="Spring Boot.UserProviderApplication" />
+      <item itemvalue="Application.UserController" />
     </list>
     <recent_temporary>
       <list>
@@ -329,9 +339,7 @@
       <workItem from="1559528768206" duration="1008000" />
       <workItem from="1559530269856" duration="54573000" />
       <workItem from="1560326898713" duration="5731000" />
-      <workItem from="1560333400724" duration="8451000" />
-      <workItem from="1560602173060" duration="1195000" />
-      <workItem from="1560603432335" duration="431000" />
+      <workItem from="1560333400724" duration="15544000" />
     </task>
     <task id="LOCAL-00001" summary="新增初始化数据sql">
       <created>1558671577212</created>
@@ -480,7 +488,21 @@
       <option name="project" value="LOCAL" />
       <updated>1560333864744</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="动态添加和取消定时任务">
+      <created>1560511035697</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1560511035697</updated>
+    </task>
+    <task id="LOCAL-00023" summary="格式化代码">
+      <created>1560738766979</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1560738766979</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -516,14 +538,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121396000" />
+    <option name="totallyTimeSpent" value="126863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24659607" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.23903178" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -535,7 +556,7 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49924356" weight="0.33770493" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -544,7 +565,7 @@
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.23442623" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Terminal" order="14" weight="0.41311476" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.37540984" />
       <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50075644" side_tool="true" weight="0.44918033" />
       <window_info anchor="right" id="Bean Validation" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -614,7 +635,8 @@
     <MESSAGE value="填加elk日志查询展示功能" />
     <MESSAGE value="实现动态修改定时任务的定时时间" />
     <MESSAGE value="动态添加和取消定时任务" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态添加和取消定时任务" />
+    <MESSAGE value="格式化代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="格式化代码" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/interceptor/LoginInterceptor.java">
@@ -731,7 +753,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/utils/BeanUtils.java" />
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar!/org/springframework/scheduling/config/Task.class" />
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar!/org/springframework/scheduling/config/Task.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/dynamicSchedule/DefaultSchedulingConfigurer.java" />
     <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -898,44 +930,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2075">
-          <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/dynamicSchedule/DynamicScheduleTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="34" column="45" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/utils/DefaultSchedulingConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
+        <state relative-caret-position="42">
           <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1064#1065#0" expanded="true" />
             <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1121#1151#0" expanded="true" />
             <element signature="e#2693#2694#0" expanded="true" />
             <element signature="e#2736#2737#0" expanded="true" />
             <element signature="e#2811#2812#0" expanded="true" />
             <element signature="e#2870#2871#0" expanded="true" />
             <element signature="e#2938#2939#0" expanded="true" />
             <element signature="e#3032#3033#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/dynamicSchedule/DynamicScheduleTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-248">
+          <caret line="34" column="45" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -997,6 +1030,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
