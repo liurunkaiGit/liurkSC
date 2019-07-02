@@ -1,10 +1,7 @@
-package com.liu.sc.controller;
+package com.liu.sc.test.stream;
 
-import com.liu.sc.bean.User;
 import com.liu.sc.common.BaseTest;
-import com.liu.sc.service.UserService;
 import org.junit.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -12,17 +9,14 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static org.junit.Assert.*;
-
-public class UserControllerTest extends BaseTest {
-
-    @Autowired
-    private UserService userService;
-
+/**
+ * @Description:
+ * @Author:W_LIURUNKAI
+ * @Date:2019/7/2 11:24
+ */
+public class testLambda extends BaseTest {
     @Test
     public void testFile() throws Exception{
-        List<User> userList = userService.findUserList(new User());
-        System.out.println(userList);
         //列举目录中的所有文件
         List<Path> filesList = Files.list(Paths.get(".")).collect(Collectors.toList());
         System.out.println(filesList);
@@ -31,4 +25,8 @@ public class UserControllerTest extends BaseTest {
         System.out.println(targetPathFilesList);
     }
 
+    @Test
+    public void test(){
+        System.out.println(1);
+    }
 }

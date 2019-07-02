@@ -6,12 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d19c5857-920a-4dfa-82fb-e49e02a9041e" name="Default Changelist" comment="完善git文档">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/learnDoc/git将项目上传到远程git仓库.docx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/learnDoc/git将项目上传到远程git仓库.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/funcProgram/BinaryOperator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/funcProgram/Predicate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/stream/testStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/stream/testStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/flyway/target/" />
     <ignored path="$PROJECT_DIR$/docs/target/" />
@@ -33,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/test/java/com/liu/sc/controller/UserControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="75">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -44,6 +39,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
               <caret line="244" column="41" selection-start-line="244" selection-start-column="41" selection-end-line="244" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/stream/testLambda.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-99">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,7 +166,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1378" />
@@ -176,6 +183,61 @@
             <path>
               <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
               <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-more-schedule" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-more-schedule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-more-schedule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-more-schedule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-more-schedule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-more-schedule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sc" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-more-schedule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sc" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
@@ -251,7 +313,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../dts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dynamic-more-schedule/src/test/java/com/liu/sc" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -262,8 +324,8 @@
       <recent name="com.liu.sc.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ideaWorkSpace\gitSc\liurkSC\dynamic-more-schedule\src\main\resources" />
       <recent name="D:\ideaWorkSpace\gitSc\liurkSC\dynamic-more-schedule\src\test\java\com\liu\sc" />
+      <recent name="D:\ideaWorkSpace\gitSc\liurkSC\dynamic-more-schedule\src\main\resources" />
       <recent name="D:\ideaWorkSpace\gitSc\liurkSC\dynamic-more-schedule\src\main\java\com\liu\sc" />
       <recent name="D:\ideaWorkSpace\gitSc\liurkSC\dynamic-more-schedule\src\main\java\com\liu\sc\utils" />
       <recent name="D:\ideaWorkSpace\gitSc\liurkSC\user-provider\src\main\java\com\liu\sc\schedule\dynamicSchedule" />
@@ -281,9 +343,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.testStream.testGroupingBy">
-    <configuration name="UserController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.sc.controller.UserController" />
+  <component name="RunManager" selected="JUnit.UserControllerTest.testFile">
+    <configuration name="UserControllerTest.testFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dynamic-more-schedule" />
       <extension name="coverage">
         <pattern>
@@ -291,6 +352,42 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.liu.sc.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.liu.sc.controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="testFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="microservice-simple-provider-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liu.sc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.liu.sc.test" />
+      <option name="MAIN_CLASS_NAME" value="com.liu.sc.test.UserTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testLambda.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="microservice-simple-provider-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liu.sc.test.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.liu.sc.test.stream" />
+      <option name="MAIN_CLASS_NAME" value="com.liu.sc.test.stream.testLambda" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -306,38 +403,6 @@
       <option name="PACKAGE_NAME" value="com.liu.sc.test.stream" />
       <option name="MAIN_CLASS_NAME" value="com.liu.sc.test.stream.testStream" />
       <option name="METHOD_NAME" value="testGroupingBy" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testStream.testOptional" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="microservice-simple-provider-user" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liu.sc.test.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.liu.sc.test.stream" />
-      <option name="MAIN_CLASS_NAME" value="com.liu.sc.test.stream.testStream" />
-      <option name="METHOD_NAME" value="testOptional" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testStream.testPartitioningBy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="microservice-simple-provider-user" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liu.sc.test.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.liu.sc.test.stream" />
-      <option name="MAIN_CLASS_NAME" value="com.liu.sc.test.stream.testStream" />
-      <option name="METHOD_NAME" value="testPartitioningBy" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -380,23 +445,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-simple-provider-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.liu.sc.UserProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="JUnit.testStream.testGroupingBy" />
+      <item itemvalue="JUnit.testStream.testToValue" />
       <item itemvalue="Spring Boot.ConfigClientApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.DynamicMoreScheduleApplication" />
-      <item itemvalue="Application.UserController" />
-      <item itemvalue="JUnit.testStream.testOptional" />
-      <item itemvalue="JUnit.testStream.testPartitioningBy" />
-      <item itemvalue="JUnit.testStream.testGroupingBy" />
-      <item itemvalue="JUnit.testStream.testToValue" />
+      <item itemvalue="Spring Boot.UserProviderApplication" />
+      <item itemvalue="JUnit.testLambda.test" />
+      <item itemvalue="JUnit.UserTest.test" />
+      <item itemvalue="JUnit.UserControllerTest.testFile" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserControllerTest.testFile" />
+        <item itemvalue="JUnit.UserTest.test" />
+        <item itemvalue="JUnit.testLambda.test" />
         <item itemvalue="JUnit.testStream.testGroupingBy" />
         <item itemvalue="JUnit.testStream.testToValue" />
-        <item itemvalue="JUnit.testStream.testPartitioningBy" />
-        <item itemvalue="JUnit.testStream.testOptional" />
-        <item itemvalue="Application.UserController" />
       </list>
     </recent_temporary>
   </component>
@@ -591,9 +664,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testStream_testToValue - 2019.06.29 at 14h 24m 53s.xml">
-      <configuration name="testStream.testToValue" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="testStream_testToValue - 2019.06.29 at 14h 25m 20s.xml">
       <configuration name="testStream.testToValue" configurationId="JUnit" />
     </history-entry>
@@ -621,15 +691,18 @@
     <history-entry file="testStream_testGroupingBy - 2019.06.29 at 15h 24m 56s.xml">
       <configuration name="testStream.testGroupingBy" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="testLambda_test - 2019.07.02 at 12h 59m 09s.xml">
+      <configuration name="testLambda.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145774000" />
+    <option name="totallyTimeSpent" value="145829000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.23903178" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24281392" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -641,7 +714,7 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49924356" weight="0.41311476" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -650,7 +723,7 @@
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.23442623" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.37540984" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.37540984" />
       <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50075644" side_tool="true" weight="0.44918033" />
       <window_info anchor="right" id="Bean Validation" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -743,13 +816,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="84" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-provider/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -781,16 +847,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/funcProgram/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/funcProgram/Predicate.java" />
     <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/SchedulerInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -1013,13 +1070,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/WorkerProcessorServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-950">
-          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/WorkerProcessorServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
@@ -1044,20 +1095,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/funcProgram/BinaryOperator.java">
+    <entry file="file://$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/funcProgram/BinaryOperator.java" />
+    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/test/java/com/liu/sc/controller/UserControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/test/java/com/liu/sc/controller/UserControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/stream/testLambda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="-99">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
