@@ -21,14 +21,12 @@ public class UserControllerTest extends BaseTest {
 
     @Test
     public void testFile() throws Exception{
-        List<User> userList = userService.findUserList(new User());
-        System.out.println(userList);
         //列举目录中的所有文件
         List<Path> filesList = Files.list(Paths.get(".")).collect(Collectors.toList());
-        System.out.println(filesList);
+        System.out.println(filesList); // .mvn  src  target  .gitignore  dynamic-more-schedule.iml  help.md  mvnw  mvnw.cmd  pom.xml
         //获取目标路径下所有文件
         List<Path> targetPathFilesList = Files.list(Paths.get(".")).filter(Files::isDirectory).collect(Collectors.toList());
-        System.out.println(targetPathFilesList);
+        System.out.println(targetPathFilesList); // .mvn   src   target
     }
 
 }
