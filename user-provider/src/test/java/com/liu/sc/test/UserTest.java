@@ -8,6 +8,8 @@ import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import sun.rmi.runtime.Log;
 
+import javax.sound.midi.Soundbank;
+
 /**
  * @Description:
  * @Author:W_LIURUNKAI
@@ -28,6 +30,14 @@ public class UserTest extends BaseTest {
 
     @Test
     public void test(){
-        System.out.println(1);
+        String str1 = "i";
+        String str2 = "i";
+        String str3 = new String(str1);
+        String str4 = new String(str1);
+        String str5 = new String("i");
+        System.out.println(str1.equals(str2));
+        System.out.println(str1.equals(str3));
+        System.out.println(str3.equals(str4));
+        System.out.println(str1.equals(str5));
     }
 }
