@@ -7,7 +7,6 @@
     <list default="true" id="d19c5857-920a-4dfa-82fb-e49e02a9041e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/learnDoc/Java面试题库.docx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/learnDoc/Java面试题库.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/UserTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/flyway/target/" />
     <ignored path="$PROJECT_DIR$/docs/target/" />
@@ -68,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/UserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+            <state relative-caret-position="294">
+              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,6 +118,7 @@
       <find>supplier</find>
       <find>suppli</find>
       <find>function</find>
+      <find>consume</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -296,7 +296,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../dm_data_quality" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../dataManager" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -478,7 +478,7 @@
       <workItem from="1563172652494" duration="1281000" />
       <workItem from="1563351209756" duration="628000" />
       <workItem from="1563353200595" duration="4305000" />
-      <workItem from="1563763163146" duration="845000" />
+      <workItem from="1563763163146" duration="5231000" />
     </task>
     <task id="LOCAL-00001" summary="新增初始化数据sql">
       <created>1558671577212</created>
@@ -655,7 +655,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563439262625</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="完善文档">
+      <created>1563764242691</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1563764242692</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -691,7 +698,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160732000" />
+    <option name="totallyTimeSpent" value="165118000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -703,10 +710,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24583964" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24583964" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -727,7 +734,7 @@
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49924356" weight="0.44918033" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Terminal" order="14" weight="0.34918034" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.34918034" />
       <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50075644" side_tool="true" weight="0.23442623" />
       <window_info anchor="right" id="Bean Validation" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -1105,8 +1112,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/UserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+        <state relative-caret-position="294">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
