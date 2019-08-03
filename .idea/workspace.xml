@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d19c5857-920a-4dfa-82fb-e49e02a9041e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/learnDoc/Java面试题库.docx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/learnDoc/Java面试题库.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/Scheduler.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/flyway/target/" />
     <ignored path="$PROJECT_DIR$/docs/target/" />
@@ -26,10 +26,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/test/java/com/liu/sc/controller/UserControllerTest.java">
+        <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/DynamicMoreScheduleApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="175">
+              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-897">
+              <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="76" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,37 +47,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/dao/UserDao.java">
+        <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="-206">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/DynamicMoreScheduleApplication.java">
+        <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/dynamicSchedule/DynamicScheduleTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="-456">
+              <caret line="34" column="45" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/UserTest.java">
+        <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/SchedulerInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+            <state relative-caret-position="178">
+              <caret line="41" column="41" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,11 +77,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/Scheduler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="26" column="57" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="57" />
+            <state relative-caret-position="250">
+              <caret line="40" column="61" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/文档/调度/GlobalExceptionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-106" />
           </provider>
         </entry>
       </file>
@@ -141,7 +151,6 @@
         <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/SchedulerInterface.java" />
         <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/interceptor/WebMvcConfig.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/Scheduler.java" />
         <option value="$PROJECT_DIR$/user-provider/pom.xml" />
         <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/utils/HttpClientUtils.java" />
         <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/controller/LogController.java" />
@@ -181,6 +190,7 @@
         <option value="$PROJECT_DIR$/dynamic-more-schedule/src/test/java/com/liu/sc/common/BaseTest.java" />
         <option value="$PROJECT_DIR$/dynamic-more-schedule/src/test/java/com/liu/sc/controller/UserControllerTest.java" />
         <option value="$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/UserTest.java" />
+        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/Scheduler.java" />
       </list>
     </option>
   </component>
@@ -218,13 +228,47 @@
             <path>
               <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
               <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-more-schedule" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
               <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="learnDoc" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-more-schedule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-more-schedule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-more-schedule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-more-schedule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-more-schedule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sc" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
@@ -249,14 +293,7 @@
               <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
               <item name="user-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
-              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -264,7 +301,7 @@
               <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
               <item name="user-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sc" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -273,10 +310,21 @@
               <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
               <item name="user-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sc" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="schedule" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
+              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sc" type="462c0819:PsiDirectoryNode" />
+              <item name="schedule" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamicSchedule" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -478,7 +526,7 @@
       <workItem from="1563172652494" duration="1281000" />
       <workItem from="1563351209756" duration="628000" />
       <workItem from="1563353200595" duration="4305000" />
-      <workItem from="1563763163146" duration="5231000" />
+      <workItem from="1563763163146" duration="12522000" />
     </task>
     <task id="LOCAL-00001" summary="新增初始化数据sql">
       <created>1558671577212</created>
@@ -662,7 +710,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563764242692</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="完善文档">
+      <created>1564063855598</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1564063855598</updated>
+    </task>
+    <task id="LOCAL-00028" summary="完善文档">
+      <created>1564301239036</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1564301239036</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -698,7 +760,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165118000" />
+    <option name="totallyTimeSpent" value="172409000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -710,10 +772,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24583964" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24583964" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -734,7 +797,7 @@
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49924356" weight="0.44918033" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.34918034" />
+      <window_info anchor="bottom" id="Terminal" order="14" visible="true" weight="0.25245902" />
       <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50075644" side_tool="true" weight="0.23442623" />
       <window_info anchor="right" id="Bean Validation" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -820,41 +883,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="完善文档" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/logstash.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="51" lean-forward="true" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/funcProgram/Predicate.java" />
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/SchedulerInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="41" column="41" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/Scheduler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="18" column="55" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/bean/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1031,23 +1060,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/dynamicSchedule/DynamicScheduleTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-248">
-          <caret line="34" column="45" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="93" column="65" selection-start-line="93" selection-start-column="65" selection-end-line="93" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/funcProgram/BinaryOperator.java" />
     <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/test/java/com/liu/sc/common/TestApp.java">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1089,13 +1101,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/DynamicMoreScheduleApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -1113,7 +1118,63 @@
     <entry file="file://$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/UserTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/DynamicMoreScheduleApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-206">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/dynamicSchedule/DynamicScheduleTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-456">
+          <caret line="34" column="45" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/文档/调度/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-106" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-897">
+          <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="76" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/Scheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="40" column="61" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/SchedulerInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

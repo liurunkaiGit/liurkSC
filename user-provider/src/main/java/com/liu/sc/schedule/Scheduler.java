@@ -23,11 +23,22 @@ import java.util.List;
 @Configuration
 public class Scheduler {
 
+    /**
+     * 是spring能够识别${cron.getDataFromRedis}
+     *
+     * @return
+     */
+    /*@Bean
+    public static PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer() {
+        return new PropertySourcesPlaceholderConfigurer();
+    }*/
+
     @Autowired
     private UserService userService;
 
     //@Scheduled(cron = "0/2 * * * * *") 也可以使用表达式
     /*@Scheduled(fixedDelay = 2000)
+    @Scheduled(cron = "${cron.getDataFromRedis:0 0 0 * * ?}")
     public void findUserList(){
         User user = new User();
         List<User> userList = this.userService.findUserList(user);
