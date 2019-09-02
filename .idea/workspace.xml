@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d19c5857-920a-4dfa-82fb-e49e02a9041e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/ABADemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/AtomicRefrenceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/CASDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/VolatileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/BlockQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/CollectionNoSafeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/CountDownLatchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/CyclicBarrierDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/ReentrantLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/ReentrantReadWriteLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/SemaphoreDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/SipnLockDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/learnDoc/Java面试题库.docx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/learnDoc/Java面试题库.docx" afterDir="false" />
     </list>
@@ -29,68 +33,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/VolatileDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="147" column="30" selection-start-line="147" selection-start-column="30" selection-end-line="147" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1011#1012#0" expanded="true" />
-                <element signature="method#canSeeByVolatile#0;class#VolatileDemo#0" />
-                <element signature="method#noAtomicVolatile#0;class#VolatileDemo#0" />
-                <element signature="e#4153#4154#0" expanded="true" />
-                <element signature="e#4562#4563#0" expanded="true" />
-                <element signature="e#4609#4610#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/CASDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="131" column="25" selection-start-line="131" selection-start-column="25" selection-end-line="131" selection-end-column="25" />
-              <folding>
-                <element signature="e#4021#4022#0" expanded="true" />
-                <element signature="e#4085#4086#0" expanded="true" />
-                <element signature="e#4946#4947#0" expanded="true" />
-                <element signature="e#5015#5016#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/ABADemo.java">
+        <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/BlockQueueDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1252">
-              <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+            <state relative-caret-position="107">
+              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#ArrayBlockingQueue#0;class#BlockQueueDemo#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="363" column="20" selection-start-line="363" selection-start-column="20" selection-end-line="363" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -141,14 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/service/CronService.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/dao/CronDao.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/SchedulerInterface.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/interceptor/WebMvcConfig.java" />
-        <option value="$PROJECT_DIR$/user-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/utils/HttpClientUtils.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/controller/LogController.java" />
         <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/filter/SessionFilter.java" />
         <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/filter/FilterConfig.java" />
         <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/interceptor/LoginInterceptor.java" />
@@ -192,6 +135,14 @@
         <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/VolatileDemo.java" />
         <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/AtomicRefrenceDemo.java" />
         <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/ABADemo.java" />
+        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/CollectionNoSafeDemo.java" />
+        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/ReentrantLockDemo.java" />
+        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/SipnLockDemo.java" />
+        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/ReentrantReadWriteLockDemo.java" />
+        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/CountDownLatchDemo.java" />
+        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/SemaphoreDemo.java" />
+        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/CyclicBarrierDemo.java" />
+        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/BlockQueueDemo.java" />
       </list>
     </option>
   </component>
@@ -214,7 +165,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -233,6 +184,17 @@
             <path>
               <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
               <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="learnDoc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
@@ -295,7 +257,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../dm_data_quality" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -331,9 +293,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ABADemo">
-    <configuration name="ABADemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.sc.demo.ABADemo" />
+  <component name="RunManager" selected="Application.BlockQueueDemo">
+    <configuration name="BlockQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.sc.demo.BlockQueueDemo" />
       <module name="microservice-simple-provider-user" />
       <extension name="coverage">
         <pattern>
@@ -345,8 +307,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtomicRefrenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.sc.demo.AtomicRefrenceDemo" />
+    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.sc.demo.CountDownLatchDemo" />
       <module name="microservice-simple-provider-user" />
       <extension name="coverage">
         <pattern>
@@ -358,8 +320,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CASDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.sc.demo.CASDemo" />
+    <configuration name="CyclicBarrierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.sc.demo.CyclicBarrierDemo" />
       <module name="microservice-simple-provider-user" />
       <extension name="coverage">
         <pattern>
@@ -371,8 +333,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.sc.demo.VolatileDemo" />
+    <configuration name="ReentrantReadWriteLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.sc.demo.ReentrantReadWriteLockDemo" />
       <module name="microservice-simple-provider-user" />
       <extension name="coverage">
         <pattern>
@@ -384,18 +346,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest.testThread" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.sc.demo.SemaphoreDemo" />
       <module name="microservice-simple-provider-user" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liu.sc.test.*" />
+          <option name="PATTERN" value="com.liu.sc.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.liu.sc.test" />
-      <option name="MAIN_CLASS_NAME" value="com.liu.sc.test.UserTest" />
-      <option name="METHOD_NAME" value="testThread" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -429,23 +388,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.UserTest.testThread" />
       <item itemvalue="Spring Boot.ConfigClientApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.DynamicMoreScheduleApplication" />
       <item itemvalue="Spring Boot.UserProviderApplication" />
-      <item itemvalue="Application.VolatileDemo" />
-      <item itemvalue="Application.CASDemo" />
-      <item itemvalue="Application.AtomicRefrenceDemo" />
-      <item itemvalue="Application.ABADemo" />
+      <item itemvalue="Application.ReentrantReadWriteLockDemo" />
+      <item itemvalue="Application.CountDownLatchDemo" />
+      <item itemvalue="Application.CyclicBarrierDemo" />
+      <item itemvalue="Application.SemaphoreDemo" />
+      <item itemvalue="Application.BlockQueueDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ABADemo" />
-        <item itemvalue="Application.AtomicRefrenceDemo" />
-        <item itemvalue="Application.CASDemo" />
-        <item itemvalue="Application.VolatileDemo" />
-        <item itemvalue="JUnit.UserTest.testThread" />
+        <item itemvalue="Application.BlockQueueDemo" />
+        <item itemvalue="Application.CyclicBarrierDemo" />
+        <item itemvalue="Application.SemaphoreDemo" />
+        <item itemvalue="Application.CountDownLatchDemo" />
+        <item itemvalue="Application.ReentrantReadWriteLockDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -479,7 +438,11 @@
       <workItem from="1566396068081" duration="1188000" />
       <workItem from="1566445091496" duration="2034000" />
       <workItem from="1566458594302" duration="258000" />
-      <workItem from="1566459286349" duration="22338000" />
+      <workItem from="1566459286349" duration="23019000" />
+      <workItem from="1566889608819" duration="237000" />
+      <workItem from="1566890653373" duration="572000" />
+      <workItem from="1566891427296" duration="1811000" />
+      <workItem from="1566900626884" duration="22973000" />
     </task>
     <task id="LOCAL-00001" summary="新增初始化数据sql">
       <created>1558671577212</created>
@@ -741,7 +704,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206362000" />
+    <option name="totallyTimeSpent" value="232636000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -753,11 +716,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.27609682" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.29425114" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -770,7 +732,7 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.27213115" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.39016393" />
       <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49924356" weight="0.41311476" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -871,68 +833,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="面试" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/utils/DynamicScheduleTaskUtils.java" />
-    <entry file="file://$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/schedule/testDynamicSchedule.java" />
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/mapper/User.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="46" selection-end-line="124" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/utils/DynamicScheduleTask.java" />
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/utils/BeanUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2694">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/service/impl/CronServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/service/CronService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/dao/CronDao.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/bean/Cron.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/test/java/com/liu/sc/testDynamicSchedule.java" />
     <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/resources/mapper/Cron.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1146,39 +1046,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/VolatileDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="147" column="30" selection-start-line="147" selection-start-column="30" selection-end-line="147" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1011#1012#0" expanded="true" />
-            <element signature="method#canSeeByVolatile#0;class#VolatileDemo#0" />
-            <element signature="method#noAtomicVolatile#0;class#VolatileDemo#0" />
-            <element signature="e#4153#4154#0" expanded="true" />
-            <element signature="e#4562#4563#0" expanded="true" />
-            <element signature="e#4609#4610#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="363" column="20" selection-start-line="363" selection-start-column="20" selection-end-line="363" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/CASDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/AtomicRefrenceDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -1189,9 +1056,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/VolatileDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="147" column="30" selection-start-line="147" selection-start-column="30" selection-end-line="147" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="method#canSeeByVolatile#0;class#VolatileDemo#0" />
+            <element signature="method#noAtomicVolatile#0;class#VolatileDemo#0" />
+            <element signature="e#4121#4122#0" expanded="true" />
+            <element signature="e#4153#4154#0" expanded="true" />
+            <element signature="e#4562#4563#0" expanded="true" />
+            <element signature="e#4609#4610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/CASDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
+        <state relative-caret-position="2150">
           <caret line="131" column="25" selection-start-line="131" selection-start-column="25" selection-end-line="131" selection-end-column="25" />
           <folding>
             <element signature="e#4021#4022#0" expanded="true" />
@@ -1202,12 +1097,161 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7950">
+          <caret line="363" column="20" selection-start-line="363" selection-start-column="20" selection-end-line="363" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/ABADemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1252">
-          <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+        <state relative-caret-position="202">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="263" column="23" selection-start-line="263" selection-start-column="23" selection-end-line="263" selection-end-column="23" />
+          <folding>
+            <element signature="e#6252#6253#0" expanded="true" />
+            <element signature="e#6320#6321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="240" column="28" selection-start-line="240" selection-start-column="28" selection-end-line="240" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="473" column="11" selection-start-line="473" selection-start-column="11" selection-end-line="473" selection-end-column="11" />
+          <folding>
+            <element signature="e#19296#19297#0" expanded="true" />
+            <element signature="e#19379#19380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/CopyOnWriteArraySet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="260" column="27" selection-start-line="260" selection-start-column="27" selection-end-line="260" selection-end-column="27" />
+          <folding>
+            <element signature="e#2736#2737#0" expanded="true" />
+            <element signature="e#2786#2787#0" expanded="true" />
+            <element signature="e#8748#8749#0" expanded="true" />
+            <element signature="e#8788#8789#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="610" column="19" selection-start-line="610" selection-start-column="19" selection-end-line="610" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="97" column="32" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
+          <folding>
+            <element signature="e#3709#3710#0" expanded="true" />
+            <element signature="e#3746#3747#0" expanded="true" />
+            <element signature="e#8033#8034#0" expanded="true" />
+            <element signature="e#8081#8082#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/CollectionNoSafeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/ReentrantLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/SipnLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/ReentrantReadWriteLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/CountDownLatchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/SemaphoreDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/CyclicBarrierDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/BlockQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#ArrayBlockingQueue#0;class#BlockQueueDemo#0" />
           </folding>
         </state>
       </provider>
