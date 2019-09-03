@@ -5,14 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d19c5857-920a-4dfa-82fb-e49e02a9041e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/BlockQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/CollectionNoSafeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/CountDownLatchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/CyclicBarrierDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/ReentrantLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/ReentrantReadWriteLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/SemaphoreDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/SipnLockDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/learnDoc/Java面试题库.docx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/learnDoc/Java面试题库.docx" afterDir="false" />
     </list>
@@ -36,11 +28,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/BlockQueueDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="40" />
+            <state relative-caret-position="257">
+              <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#ArrayBlockingQueue#0;class#BlockQueueDemo#0" />
               </folding>
             </state>
           </provider>
@@ -165,7 +156,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -176,8 +167,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,51 +186,6 @@
               <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="learnDoc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
-              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
-              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
-              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
-              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
-              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
-              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sc" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -388,15 +334,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.ConfigClientApplication" />
-      <item itemvalue="Spring Boot.ConfigServerApplication" />
-      <item itemvalue="Spring Boot.DynamicMoreScheduleApplication" />
-      <item itemvalue="Spring Boot.UserProviderApplication" />
       <item itemvalue="Application.ReentrantReadWriteLockDemo" />
       <item itemvalue="Application.CountDownLatchDemo" />
       <item itemvalue="Application.CyclicBarrierDemo" />
       <item itemvalue="Application.SemaphoreDemo" />
       <item itemvalue="Application.BlockQueueDemo" />
+      <item itemvalue="Spring Boot.ConfigClientApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.DynamicMoreScheduleApplication" />
+      <item itemvalue="Spring Boot.UserProviderApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -442,7 +388,8 @@
       <workItem from="1566889608819" duration="237000" />
       <workItem from="1566890653373" duration="572000" />
       <workItem from="1566891427296" duration="1811000" />
-      <workItem from="1566900626884" duration="22973000" />
+      <workItem from="1566900626884" duration="24261000" />
+      <workItem from="1567506383178" duration="865000" />
     </task>
     <task id="LOCAL-00001" summary="新增初始化数据sql">
       <created>1558671577212</created>
@@ -704,7 +651,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232636000" />
+    <option name="totallyTimeSpent" value="234789000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -716,10 +663,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.29425114" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2987897" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -732,7 +679,7 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.39016393" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.39016393" />
       <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49924356" weight="0.41311476" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -741,7 +688,7 @@
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49924356" weight="0.44918033" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Terminal" order="14" weight="0.38360655" />
+      <window_info anchor="bottom" id="Terminal" order="14" visible="true" weight="0.38360655" />
       <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50075644" side_tool="true" weight="0.23442623" />
       <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
       <window_info anchor="right" id="Bean Validation" order="0" />
@@ -1247,11 +1194,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/BlockQueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="40" />
+        <state relative-caret-position="257">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#ArrayBlockingQueue#0;class#BlockQueueDemo#0" />
           </folding>
         </state>
       </provider>
