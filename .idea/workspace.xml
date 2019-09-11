@@ -538,7 +538,7 @@
       <workItem from="1568015256989" duration="578000" />
       <workItem from="1568015364941" duration="571000" />
       <workItem from="1568017266583" duration="583000" />
-      <workItem from="1568029123965" duration="1338000" />
+      <workItem from="1568029123965" duration="1392000" />
     </task>
     <task id="LOCAL-00001" summary="新增初始化数据sql">
       <created>1558671577212</created>
@@ -807,7 +807,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="261292000" />
+    <option name="totallyTimeSpent" value="261346000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -822,7 +822,7 @@
     <frame x="-7" y="0" width="1380" height="735" extended-state="0" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.3378788" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.3378788" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -844,7 +844,7 @@
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49924356" weight="0.44918033" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Terminal" order="14" weight="0.5032787" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.5024958" />
       <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50075644" side_tool="true" weight="0.23442623" />
       <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
       <window_info anchor="right" id="Bean Validation" order="0" />
