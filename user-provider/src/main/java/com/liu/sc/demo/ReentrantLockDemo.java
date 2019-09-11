@@ -4,6 +4,7 @@ import org.omg.CORBA.PUBLIC_MEMBER;
 
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -15,7 +16,21 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class ReentrantLockDemo {
     public static void main(String[] args) {
-        sendAlarm sendAlarm = new sendAlarm();
+        // 锁绑定多个条件Condition，reentrantLock实现精确唤醒
+        // 题目：线程A打印5次，线程B打印10次，线程C打印15次，紧接着继续执行线程A
+        shareResource shareResource = new shareResource();
+        for (int i = 0; i < 3; i++) {
+            new Thread(() -> {
+                shareResource.print5();
+            },"A").start();
+            new Thread(() -> {
+                shareResource.print10();
+            },"B").start();
+            new Thread(() -> {
+                shareResource.print15();
+            },"C").start();
+        }
+        /*sendAlarm sendAlarm = new sendAlarm();
         new Thread(() -> {
             sendAlarm.sendSms();
         }, "t1").start();
@@ -29,7 +44,7 @@ public class ReentrantLockDemo {
         System.out.println("======================");
 
         Thread t3 = new Thread(sendAlarm,"t3");
-        t3.start();
+        t3.start();*/
     }
 }
 
@@ -63,6 +78,75 @@ class sendAlarm implements Runnable{
         lock.lock();
         try {
             System.out.println(Thread.currentThread().getName() + "====" + "set()");
+        } finally {
+            lock.unlock();
+        }
+    }
+}
+
+class shareResource{
+    private Integer number = 1; // A:1,B:2,C:3
+    private Lock lock = new ReentrantLock();
+    Condition condition1 = lock.newCondition();
+    Condition condition2 = lock.newCondition();
+    Condition condition3 = lock.newCondition();
+
+    public void print5(){
+        lock.lock();
+        try {
+            // 判断
+            while (number != 1){
+                condition1.await();
+            }
+            // 干活
+            for (int i = 0; i < 5; i++) {
+                System.out.println(Thread.currentThread().getName()+i);
+            }
+            // 通知
+            number=2;
+            condition2.signal();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } finally {
+            lock.unlock();
+        }
+    }
+    public void print10(){
+        lock.lock();
+        try {
+            // 判断
+            while (number != 2){
+                condition2.await();
+            }
+            // 干活
+            for (int i = 0; i < 10; i++) {
+                System.out.println(Thread.currentThread().getName()+i);
+            }
+            // 通知
+            number=3;
+            condition3.signal();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } finally {
+            lock.unlock();
+        }
+    }
+    public void print15(){
+        lock.lock();
+        try {
+            // 判断
+            while (number != 3){
+                condition3.await();
+            }
+            // 干活
+            for (int i = 0; i < 15; i++) {
+                System.out.println(Thread.currentThread().getName()+i);
+            }
+            // 通知
+            number=1;
+            condition1.signal();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         } finally {
             lock.unlock();
         }
