@@ -1,1 +1,8 @@
+server:
+  port: 9999
+  servlet:
+    context-path: /log4j2
 
+#日志保存目录
+logback:
+  logdir: /data/log/dmg${server.servlet.context-path}

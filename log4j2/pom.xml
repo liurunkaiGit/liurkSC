@@ -8,10 +8,10 @@
         <version>2.1.8.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.log.log4j2</groupId>
+    <groupId>com.liu.log</groupId>
     <artifactId>log4j2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>log4j2</name>
+    <name>slf4j</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -19,10 +19,11 @@
     </properties>
 
     <dependencies>
+        <!--过滤掉自带的spring-boot-starter-logging注意：过滤掉自带的，然后添加spring-boot-starter-log4j依赖包-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
-            <exclusions><!-- 去掉springboot默认配置 -->
+            <exclusions>
                 <exclusion>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-starter-logging</artifactId>
@@ -35,9 +36,10 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <dependency> <!-- 引入log4j2依赖 -->
+        <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-log4j2</artifactId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
         </dependency>
 
         <dependency>
@@ -45,11 +47,13 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <artifactId>spring-boot-starter-log4j2</artifactId>
+            <version>1.3.8.RELEASE</version>
         </dependency>
+
     </dependencies>
 
     <build>

@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dynamic-more-schedule" />
+        <module name="log4j2" />
         <module name="config-server" />
-        <module name="config-client" />
         <module name="elk" />
+        <module name="slf4j" />
         <module name="microservice-simple-provider-user (1)" />
         <module name="microservice-simple-provider-user (2)" />
+        <module name="config-client" />
         <module name="microservice-simple-provider-user" />
       </profile>
     </annotationProcessing>
@@ -20,15 +22,19 @@
       <module name="config-server" target="1.8" />
       <module name="dynamic-more-schedule" target="1.8" />
       <module name="elk" target="1.8" />
+      <module name="log4j2" target="1.8" />
       <module name="microservice-simple-provider-user" target="1.8" />
       <module name="microservice-simple-provider-user (1)" target="1.8" />
       <module name="microservice-simple-provider-user (2)" target="1.8" />
+      <module name="slf4j" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="dynamic-more-schedule" options="" />
       <module name="elk" options="-parameters" />
+      <module name="log4j2" options="-parameters" />
+      <module name="slf4j" options="-parameters" />
     </option>
   </component>
 </project>

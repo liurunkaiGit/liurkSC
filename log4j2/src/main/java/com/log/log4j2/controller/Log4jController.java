@@ -1,4 +1,4 @@
-package com.liu.log.controller;
+package com.log.log4j2.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
