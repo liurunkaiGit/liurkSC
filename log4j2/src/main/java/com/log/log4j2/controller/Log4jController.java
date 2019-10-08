@@ -25,8 +25,8 @@ public class Log4jController {
         log.debug("这是log4j.properties日志：debug");
         log.error("这是log4j.properties日志：error");
 
-        logger.error("hello world");
-        logger.info("hello world");
-        logger.debug("hello world");
+        logger.error("hello world error");
+        logger.info("hello world info");
+        logger.debug("hello world debug");
     }
 }

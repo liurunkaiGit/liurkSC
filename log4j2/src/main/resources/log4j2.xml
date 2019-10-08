@@ -25,13 +25,13 @@
             <Policies>
                 <!--interval属性用来指定多久滚动一次，以下设置一天-->
                 <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
-                <!--每个文件大小限制策略-->
-                <!--<SizeBasedTriggeringPolicy size="10KB"/>-->
+                <!-- 此处为每个文件大小策略限制，使用它一般会在文件中filePattern采用%i模式:filePattern="${LOG_DIR}/info.%d{yyyy-MM-dd}-%i.log" -->
+                <SizeBasedTriggeringPolicy size="20MB" />
             </Policies>
             <!--设置日志保存7天-->
             <DefaultRolloverStrategy>
                 <Delete basePath="${LOG_DIR}" maxDepth="2">
-                    <IfFileName glob="/info.log"/>
+                    <IfFileName glob="info.*.log"/>
                     <IfLastModified age="7d"/>
                 </Delete>
             </DefaultRolloverStrategy>
