@@ -26,7 +26,7 @@
                 <!--interval属性用来指定多久滚动一次，以下设置一天-->
                 <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
                 <!-- 此处为每个文件大小策略限制，使用它一般会在文件中filePattern采用%i模式:filePattern="${LOG_DIR}/info.%d{yyyy-MM-dd}-%i.log" -->
-                <SizeBasedTriggeringPolicy size="20MB" />
+                <!--<SizeBasedTriggeringPolicy size="20MB" />-->
             </Policies>
             <!--设置日志保存7天-->
             <DefaultRolloverStrategy>
@@ -45,13 +45,11 @@
             <Policies>
                 <!--interval属性用来指定多久滚动一次，以下设置一天-->
                 <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
-                <!--每个文件大小限制策略-->
-                <!--<SizeBasedTriggeringPolicy size="10KB"/>-->
             </Policies>
             <!--设置日志保存7天-->
             <DefaultRolloverStrategy>
                 <Delete basePath="${LOG_DIR}" maxDepth="2">
-                    <IfFileName glob="/timeinfo.log"/>
+                    <IfFileName glob="/timeinfo.*.log"/>
                     <IfLastModified age="7d"/>
                 </Delete>
             </DefaultRolloverStrategy>
@@ -64,13 +62,11 @@
             <Policies>
                 <!--interval属性用来指定多久滚动一次，以下设置一天-->
                 <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
-                <!--每个文件大小限制策略-->
-                <!--<SizeBasedTriggeringPolicy size="10KB"/>-->
             </Policies>
             <!--设置日志保存7天-->
             <DefaultRolloverStrategy>
                 <Delete basePath="${LOG_DIR}" maxDepth="2">
-                    <IfFileName glob="/error.log"/>
+                    <IfFileName glob="/error.*.log"/>
                     <IfLastModified age="7d"/>
                 </Delete>
             </DefaultRolloverStrategy>
@@ -83,13 +79,11 @@
             <Policies>
                 <!--interval属性用来指定多久滚动一次，以下设置一天-->
                 <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
-                <!--每个文件大小限制策略-->
-                <!--<SizeBasedTriggeringPolicy size="10KB"/>-->
             </Policies>
-            <!--设置日志保存7天-->
+            <!--设置日志保存7天：亲测并不是保存7天，根据配置命名可理解为保留最新的7个历史日志文件，不包含当天的-->
             <DefaultRolloverStrategy>
                 <Delete basePath="${LOG_DIR}" maxDepth="2">
-                    <IfFileName glob="/timeerror.log"/>
+                    <IfFileName glob="/timeerror.*.log"/>
                     <IfLastModified age="7d"/>
                 </Delete>
             </DefaultRolloverStrategy>
@@ -97,12 +91,26 @@
     </Appenders>
 
     <Loggers>
-        <Root level="debug">
+        <!--配置多个logger可以指定不同类或包下打印的日志输出到不同的文件里，name属性设置指定的类名或包名，additivity设置为false将只作用于当前AppenderRef-->
+        <!--<Logger name="com.log.log4j2.controller" level="trace" additivity="false">
+            <AppenderRef ref="methodProcess" />
+        </Logger>
+        <Logger name="com.log.log4j2.controller" level="INFO" additivity="false">
+            <AppenderRef ref="TIME_INFO_FILE"/>
+            <AppenderRef ref="TIME_ERROR_FILE"/>
+        </Logger>-->
+        <logger name="com.log.log4j2.controller" level="trace" additivity="false">
+            <appender-ref ref="methodProcess" />
+        </logger>
+        <logger name="com.log.log4j2.controller" level="INFO" additivity="false">
+            <appender-ref ref="TIME_INFO_FILE"/>
+            <appender-ref ref="TIME_ERROR_FILE"/>
+        </logger>
+
+        <Root level="info">
             <AppenderRef ref="Console"/>
             <AppenderRef ref="INFO_FILE"/>
-            <AppenderRef ref="TIME_INFO_FILE"/>
             <AppenderRef ref="ERROR_FILE"/>
-            <AppenderRef ref="TIME_ERROR_FILE"/>
         </Root>
     </Loggers>
 </Configuration>
