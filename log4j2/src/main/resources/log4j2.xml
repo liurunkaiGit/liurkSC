@@ -106,8 +106,8 @@
             <AppenderRef ref="INFO_FILE"/>
         </logger>-->
         <!--打印sql信息-->
-        <logger name="com.log.log4j2.dao" level="DEBUG"></logger>
-        <logger name="org.mybatis" level="DEBUG"></logger>
+        <!--<logger name="com.log.log4j2.dao" level="DEBUG"></logger>
+        <logger name="org.mybatis" level="DEBUG"></logger>-->
         <!--<logger name="com.log.log4j2.dao" level="INFO"></logger>-->
         <!--将制定模块的日志输出到指定文件里面-->
         <!--<logger name="com.log.log4j2.controller" level="trace" additivity="false">
