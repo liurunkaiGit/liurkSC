@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--status：用于设置log4j2本身打印日志的级别，可以不设置，当设置成trace时，可以看到log4j2内部各种详细输出-->
+<!--monitorInterval用于指定log4j自动重新配置的监测间隔时间，单位是m，最小是5m-->
+<!--日志级别以及优先级排序：OFF > FATAL > ERROR > WARN > INFO > DEBUG > TRACE > ALL-->
+<Configuration status="DEBUG" monitorInterval="60">
+    <!--变量配置-->
+    <Properties>
+        <!--日志格式化输出：%date表示日期，%thread表示线程名，%-5level，%msg：日志消息，%n换行符-->
+        <property name="LOG_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %c %M - %msg%n" />
+        <!--<Property name="LOG_DIR">/data/log/dmg/${ctx:contextpath}</Property>-->
+        <property name="LOG_DIR" value="/data/log/dmg/${sys:contextpath}"/>
+        <!--<Property name="LOG_NAME">log</Property>-->
+    </Properties>
+
+    <Appenders>
+        <!--控制台日志打印-->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout charset="UTF-8" pattern="${LOG_PATTERN}"/>
+        </Console>
+
+        <!--按天生成一个日志，打印info级别的日志-->
+        <RollingFile name="INFO_FILE" fileName="${LOG_DIR}/info.log" filePattern="${LOG_DIR}/info.%d{yyyy-MM-dd}.log">
+            <PatternLayout charset="UTF-8" pattern="${LOG_PATTERN}"/>
+            <ThresholdFilter level="DEBUG" onMatch="ACCEPT" onMismatch="DENY" />
+            <!--滚动日志的策略-->
+            <Policies>
+                <!--interval属性用来指定多久滚动一次，以下设置一天-->
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <!-- 此处为每个文件大小策略限制，使用它一般会在文件中filePattern采用%i模式:filePattern="${LOG_DIR}/info.%d{yyyy-MM-dd}-%i.log" -->
+                <!--<SizeBasedTriggeringPolicy size="20MB" />-->
+            </Policies>
+            <!--设置日志保存7天-->
+            <DefaultRolloverStrategy>
+                <Delete basePath="${LOG_DIR}" maxDepth="2">
+                    <IfFileName glob="info.*.log"/>
+                    <IfLastModified age="7d"/>
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+
+        <!--按天生成一个日志，打印info级别的日志-->
+        <RollingFile name="TIME_INFO_FILE" fileName="${LOG_DIR}/timeinfo.log" filePattern="${LOG_DIR}/timeinfo.%d{yyyy-MM-dd}.log">
+            <PatternLayout charset="UTF-8" pattern="${LOG_PATTERN}"/>
+            <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY" />
+            <!--滚动日志的策略-->
+            <Policies>
+                <!--interval属性用来指定多久滚动一次，以下设置一天-->
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+            <!--设置日志保存7天-->
+            <DefaultRolloverStrategy>
+                <Delete basePath="${LOG_DIR}" maxDepth="2">
+                    <IfFileName glob="/timeinfo.*.log"/>
+                    <IfLastModified age="7d"/>
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+        <!--按天生成一个日志，打印error级别的日志-->
+        <RollingFile name="ERROR_FILE" fileName="${LOG_DIR}/error.log" filePattern="${LOG_DIR}/error.%d{yyyy-MM-dd}.log">
+            <PatternLayout charset="UTF-8" pattern="${LOG_PATTERN}"/>
+            <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY" />
+            <!--滚动日志的策略-->
+            <Policies>
+                <!--interval属性用来指定多久滚动一次，以下设置一天-->
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+            <!--设置日志保存7天-->
+            <DefaultRolloverStrategy>
+                <Delete basePath="${LOG_DIR}" maxDepth="2">
+                    <IfFileName glob="/error.*.log"/>
+                    <IfLastModified age="7d"/>
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+        <!--按天生成一个日志，打印ERROR级别的日志-->
+        <RollingFile name="TIME_ERROR_FILE" fileName="${LOG_DIR}/timeerror.log" filePattern="${LOG_DIR}/timeerror.%d{yyyy-MM-dd}.log">
+            <PatternLayout charset="UTF-8" pattern="${LOG_PATTERN}"/>
+            <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY" />
+            <!--滚动日志的策略-->
+            <Policies>
+                <!--interval属性用来指定多久滚动一次，以下设置一天-->
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+            <!--设置日志保存7天：亲测并不是保存7天，根据配置命名可理解为保留最新的7个历史日志文件，不包含当天的-->
+            <DefaultRolloverStrategy>
+                <Delete basePath="${LOG_DIR}" maxDepth="2">
+                    <IfFileName glob="/timeerror.*.log"/>
+                    <IfLastModified age="7d"/>
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <!--配置多个logger可以指定不同类或包下打印的日志输出到不同的文件里，name属性设置指定的类名或包名，additivity设置为false将只作用于当前AppenderRef-->
+        <!--<Logger name="com.log.log4j2.controller" level="trace" additivity="false">
+            <AppenderRef ref="methodProcess" />
+        </Logger>
+        <Logger name="com.log.log4j2.controller" level="INFO" additivity="false">
+            <AppenderRef ref="TIME_INFO_FILE"/>
+            <AppenderRef ref="TIME_ERROR_FILE"/>
+        </Logger>-->
+        <!-- 将业务dao接口填写进去,并用控制台输出即可 -->
+        <!--<logger name="com.log.log4j2.dao" level="debug" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="INFO_FILE"/>
+        </logger>-->
+        <!--打印sql信息-->
+        <!--<logger name="com.log.log4j2.dao" level="DEBUG"></logger>
+        <logger name="org.mybatis" level="DEBUG"></logger>-->
+        <!--<logger name="com.log.log4j2.dao" level="INFO"></logger>-->
+        <!--将制定模块的日志输出到指定文件里面-->
+        <!--<logger name="com.log.log4j2.controller" level="trace" additivity="false">
+            <appender-ref ref="methodProcess" />
+        </logger>
+
+        <logger name="com.log.log4j2.controller" level="INFO" additivity="false">
+            <appender-ref ref="TIME_INFO_FILE"/>
+            <appender-ref ref="TIME_ERROR_FILE"/>
+        </logger>-->
+
+        <Root level="debug">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="INFO_FILE"/>
+            <AppenderRef ref="ERROR_FILE"/>
+        </Root>
+    </Loggers>
+</Configuration>

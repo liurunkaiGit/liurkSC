@@ -2,81 +2,141 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/user-provider/src/main/resources/mapper/Cron.xml" line="4" />
-    <bookmark url="file://$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/stream/testStream.java" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="d19c5857-920a-4dfa-82fb-e49e02a9041e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+=======
+    <list default="true" id="d19c5857-920a-4dfa-82fb-e49e02a9041e" name="Default Changelist" comment="使用log4j2打印debug级别日志,打印sql日志输出到日志文件" />
+>>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
     <ignored path="$PROJECT_DIR$/flyway/target/" />
     <ignored path="$PROJECT_DIR$/docs/target/" />
     <ignored path="$PROJECT_DIR$/config-server/target/" />
     <ignored path="$PROJECT_DIR$/config-client/target/" />
     <ignored path="$PROJECT_DIR$/user-provider/target/" />
     <ignored path="$PROJECT_DIR$/dynamic-more-schedule/target/" />
+    <ignored path="$PROJECT_DIR$/elk/target/" />
+    <ignored path="$PROJECT_DIR$/slf4j/target/" />
+    <ignored path="$PROJECT_DIR$/log4j2/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/controller/UserController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log4j2/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="61">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
+=======
+            <state relative-caret-position="2000">
+              <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+>>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/test/java/com/liu/sc/controller/UserControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/pom.xml">
+=======
+        <entry file="file://$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2075">
-              <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/dynamicSchedule/DynamicScheduleTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="34" column="45" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/utils/DefaultSchedulingConfigurer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="875">
-              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+            <state relative-caret-position="425">
+              <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1064#1065#0" expanded="true" />
-                <element signature="e#1114#1115#0" expanded="true" />
-                <element signature="e#2693#2694#0" expanded="true" />
-                <element signature="e#2736#2737#0" expanded="true" />
-                <element signature="e#2811#2812#0" expanded="true" />
-                <element signature="e#2870#2871#0" expanded="true" />
-                <element signature="e#2938#2939#0" expanded="true" />
-                <element signature="e#3032#3033#0" expanded="true" />
               </folding>
+>>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log4j2/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/Log4j2Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log4j2/src/main/resources/log4j2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="875">
+              <caret line="123" column="42" selection-start-line="123" selection-start-column="42" selection-end-line="123" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/Reference.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log4j2/src/main/resources/mapper/User.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/controller/Log4jController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -86,6 +146,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
@@ -110,6 +171,18 @@
       <find>userId is</find>
       <find>InitializingBean</find>
       <find>next</find>
+      <find>flat</find>
+      <find>testReduce</find>
+      <find>supplier</find>
+      <find>suppli</find>
+      <find>function</find>
+      <find>consume</find>
+      <find>logdir</find>
+      <find>logdir is</find>
+      <find>log4j2</find>
+      <find>my</find>
+      <find>com.liu.sc.bean.User</find>
+      <find>cj</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -121,6 +194,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/utils/contants/ValidContant.java" />
         <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/utils/contants/ScheduleContant.java" />
         <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/bean/Cron.java" />
@@ -141,9 +215,52 @@
         <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/filter/FilterConfig.java" />
         <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/interceptor/LoginInterceptor.java" />
         <option value="$PROJECT_DIR$/user-provider/src/main/resources/logback-spring.xml" />
+=======
+        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/BlockQueueDemo.java" />
+        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/ProducerConsumer_TranditionalDemo.java" />
+        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/ReentrantLockDemo.java" />
+        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/ProducerConsumer_BlockQueueDemo.java" />
+        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/CallableDemo.java" />
+        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/ThreadPoolDemo.java" />
+        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/DeadLockDemo.java" />
+        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/HelloGC.java" />
+>>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
         <option value="$PROJECT_DIR$/user-provider/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/user-provider/.gitignore" />
+        <option value="$PROJECT_DIR$/elk/src/main/java/ElkApplication.java" />
+        <option value="$PROJECT_DIR$/elk/src/main/java/com/liu/elk/ElkConfig.java" />
+        <option value="$PROJECT_DIR$/elk/src/main/java/com/liu/elk/config/ElkConfig.java" />
+        <option value="$PROJECT_DIR$/elk/pom.xml" />
+        <option value="$PROJECT_DIR$/elk/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/elk/src/main/java/com/liu/elk/bean/EsBean.java" />
+        <option value="$PROJECT_DIR$/elk/src/main/java/com/liu/elk/bean/EsBeanGood.java" />
+        <option value="$PROJECT_DIR$/elk/src/main/java/com/liu/elk/service/ElkService.java" />
+        <option value="$PROJECT_DIR$/elk/src/main/java/com/liu/elk/service/impl/ElkServiceImpl.java" />
+        <option value="$PROJECT_DIR$/elk/src/main/java/com/liu/elk/dao/ElkDao.java" />
+        <option value="$PROJECT_DIR$/elk/src/main/java/com/liu/elk/query/Page.java" />
+        <option value="$PROJECT_DIR$/elk/src/main/java/com/liu/elk/query/EsBeanGoodQuery.java" />
+        <option value="$PROJECT_DIR$/elk/src/main/java/com/liu/elk/controller/ElkController.java" />
+        <option value="$PROJECT_DIR$/elk/src/main/java/com/liu/elk/config/ReturnFormatConfig.java" />
+        <option value="$PROJECT_DIR$/elk/src/main/java/com/liu/elk/ElkApplication.java" />
+        <option value="$PROJECT_DIR$/elk/src/test/java/com/liu/elk/ElkTest.java" />
+        <option value="$PROJECT_DIR$/user-provider/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/slf4j/src/test/java/com/liu/log/Slf4jApplicationTests.java" />
+        <option value="$PROJECT_DIR$/slf4j/src/main/resources/log4j-spring.properties" />
+        <option value="$PROJECT_DIR$/slf4j/src/main/java/com/liu/log/controller/Log4jController.java" />
+        <option value="$PROJECT_DIR$/slf4j/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/slf4j/src/main/resources/log4j.xml" />
+        <option value="$PROJECT_DIR$/slf4j/src/main/java/com/liu/log/config/Log4jFileFormatDay.java" />
+        <option value="$PROJECT_DIR$/slf4j/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/slf4j/src/test/java/com/liu/log/Test.java" />
+        <option value="$PROJECT_DIR$/slf4j/pom.xml" />
+        <option value="$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/listener/ApplicationStartedEventListener.java" />
+        <option value="$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/controller/Log4jController.java" />
+        <option value="$PROJECT_DIR$/user-provider/deploy/sql/init_sql.sql" />
+        <option value="$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/utils/HttpClientUtils.java" />
+        <option value="$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/bean/User.java" />
+        <option value="$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/service/UserService.java" />
+        <option value="$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/UserProviderApplication.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/controller/UserController.java" />
         <option value="$PROJECT_DIR$/user-provider/src/main/resources/logstash.conf" />
         <option value="$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/funcProgram/BinaryOperator.java" />
@@ -172,10 +289,26 @@
         <option value="$PROJECT_DIR$/dynamic-more-schedule/pom.xml" />
         <option value="$PROJECT_DIR$/dynamic-more-schedule/src/test/java/com/liu/sc/controller/UserControllerTest.java" />
         <option value="$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/controller/UserController.java" />
+=======
+        <option value="$PROJECT_DIR$/log4j2/pom.xml" />
+        <option value="$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/log4j2/src/main/resources/mapper/User.xml" />
+        <option value="$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/Log4j2Application.java" />
+        <option value="$PROJECT_DIR$/log4j2/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/log4j2/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/Reference.java" />
+>>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../soft/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\book\soft\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -184,9 +317,22 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="slf4j" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="slf4j" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -209,10 +355,56 @@
               <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
               <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
+              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
+              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
+              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
+              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
+              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
+              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sc" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -227,6 +419,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/learnDoc" />
@@ -234,6 +427,20 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+=======
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+>>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -243,14 +450,23 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.log.log4j2.controller" />
       <recent name="com.liu.sc.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="D:\IdeaWorkspace\liurkSC\docs\learnDoc" />
       <recent name="D:\ideaWorkSpace\gitSc\liurkSC\dynamic-more-schedule\src\main\resources" />
       <recent name="D:\ideaWorkSpace\gitSc\liurkSC\dynamic-more-schedule\src\test\java\com\liu\sc" />
       <recent name="D:\ideaWorkSpace\gitSc\liurkSC\dynamic-more-schedule\src\main\java\com\liu\sc" />
       <recent name="D:\ideaWorkSpace\gitSc\liurkSC\dynamic-more-schedule\src\main\java\com\liu\sc\utils" />
+=======
+      <recent name="D:\book\ideaWorkSpace\gitSc\liurkSC\log4j2\src\main\java\com\log\log4j2" />
+      <recent name="D:\book\ideaWorkSpace\gitSc\liurkSC\log4j2\src\main\resources" />
+      <recent name="D:\ideaWorkSpace\gitSc\liurkSC\dynamic-more-schedule\src\test\java\com\liu\sc" />
+      <recent name="D:\ideaWorkSpace\gitSc\liurkSC\user-provider\src\test\java\com\liu\sc\test\stream" />
+      <recent name="D:\ideaWorkSpace\gitSc\liurkSC\dynamic-more-schedule\src\main\resources" />
+>>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
     </key>
   </component>
   <component name="RunDashboard">
@@ -265,16 +481,77 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UserController">
-    <configuration name="UserController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.sc.controller.UserController" />
-      <module name="dynamic-more-schedule" />
+  <component name="RunManager" selected="Application.Reference">
+    <configuration name="HelloGC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.sc.demo.HelloGC" />
+      <module name="microservice-simple-provider-user" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liu.sc.controller.*" />
+          <option name="PATTERN" value="com.liu.sc.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Reference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.sc.demo.Reference" />
+      <module name="microservice-simple-provider-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liu.sc.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElkTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="elk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liu.elk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.liu.elk" />
+      <option name="MAIN_CLASS_NAME" value="com.liu.elk.ElkTest" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Slf4jApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="slf4j" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liu.log.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.liu.log" />
+      <option name="MAIN_CLASS_NAME" value="com.liu.log.Slf4jApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.testListStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="slf4j" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liu.log.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.liu.log" />
+      <option name="MAIN_CLASS_NAME" value="com.liu.log.Test" />
+      <option name="METHOD_NAME" value="testListStream" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -300,30 +577,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ElkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="elk" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.liu.elk.ElkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Log4j2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="log4j2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.log.log4j2.Log4j2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Slf4jApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="slf4j" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.liu.log.Slf4jApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="microservice-simple-provider-user" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liu.sc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.liu.sc.UserProviderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.UserController" />
+      <item itemvalue="Application.HelloGC" />
+      <item itemvalue="JUnit.ElkTest.testInsert" />
+      <item itemvalue="JUnit.Slf4jApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.Test.testListStream" />
       <item itemvalue="Spring Boot.ConfigClientApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.DynamicMoreScheduleApplication" />
       <item itemvalue="Spring Boot.UserProviderApplication" />
+      <item itemvalue="Spring Boot.ElkApplication" />
+      <item itemvalue="Spring Boot.Slf4jApplication" />
+      <item itemvalue="Spring Boot.Log4j2Application" />
+      <item itemvalue="Application.Reference" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserController" />
-        <item itemvalue="Spring Boot.UserProviderApplication" />
+        <item itemvalue="Application.Reference" />
+        <item itemvalue="JUnit.Test.testListStream" />
+        <item itemvalue="JUnit.Slf4jApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.ElkTest.testInsert" />
+        <item itemvalue="Application.HelloGC" />
       </list>
     </recent_temporary>
   </component>
@@ -344,10 +646,51 @@
       <workItem from="1559528768206" duration="1008000" />
       <workItem from="1559530269856" duration="54573000" />
       <workItem from="1560326898713" duration="5731000" />
+<<<<<<< HEAD
       <workItem from="1560333400724" duration="8451000" />
       <workItem from="1560602173060" duration="1195000" />
       <workItem from="1560603432335" duration="1413000" />
       <workItem from="1570800641085" duration="457000" />
+=======
+      <workItem from="1560333400724" duration="34455000" />
+      <workItem from="1563162433641" duration="666000" />
+      <workItem from="1563172652494" duration="1281000" />
+      <workItem from="1563351209756" duration="628000" />
+      <workItem from="1563353200595" duration="4305000" />
+      <workItem from="1563763163146" duration="13169000" />
+      <workItem from="1565163866941" duration="571000" />
+      <workItem from="1565575552479" duration="587000" />
+      <workItem from="1565698056541" duration="543000" />
+      <workItem from="1566098858590" duration="5787000" />
+      <workItem from="1566396068081" duration="1188000" />
+      <workItem from="1566445091496" duration="2034000" />
+      <workItem from="1566458594302" duration="258000" />
+      <workItem from="1566459286349" duration="23019000" />
+      <workItem from="1566889608819" duration="237000" />
+      <workItem from="1566890653373" duration="572000" />
+      <workItem from="1566891427296" duration="1811000" />
+      <workItem from="1566900626884" duration="24261000" />
+      <workItem from="1567506383178" duration="2306000" />
+      <workItem from="1567597777356" duration="815000" />
+      <workItem from="1567665935186" duration="8485000" />
+      <workItem from="1567835348523" duration="414000" />
+      <workItem from="1567836083151" duration="12278000" />
+      <workItem from="1568015256989" duration="578000" />
+      <workItem from="1568015364941" duration="571000" />
+      <workItem from="1568017266583" duration="583000" />
+      <workItem from="1568029123965" duration="13677000" />
+      <workItem from="1568900925810" duration="397000" />
+      <workItem from="1568947353075" duration="198000" />
+      <workItem from="1568948966463" duration="1542000" />
+      <workItem from="1569034857362" duration="1793000" />
+      <workItem from="1569231684939" duration="571000" />
+      <workItem from="1569293507715" duration="25101000" />
+      <workItem from="1569483628342" duration="31604000" />
+      <workItem from="1570517088158" duration="17890000" />
+      <workItem from="1570677768447" duration="1201000" />
+      <workItem from="1570763496453" duration="646000" />
+      <workItem from="1570770768799" duration="2306000" />
+>>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
     </task>
     <task id="LOCAL-00001" summary="新增初始化数据sql">
       <created>1558671577212</created>
@@ -496,6 +839,7 @@
       <option name="project" value="LOCAL" />
       <updated>1560333864744</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00022" summary="添加java面试题库">
       <created>1560604007840</created>
       <option name="number" value="00022" />
@@ -511,84 +855,249 @@
       <updated>1560604249703</updated>
     </task>
     <option name="localTasksCounter" value="24" />
+=======
+    <task id="LOCAL-00022" summary="动态添加和取消定时任务">
+      <created>1560511035697</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1560511035697</updated>
+    </task>
+    <task id="LOCAL-00023" summary="格式化代码">
+      <created>1560738766979</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1560738766979</updated>
+    </task>
+    <task id="LOCAL-00024" summary="完善git文档">
+      <created>1560858818036</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1560858818036</updated>
+    </task>
+    <task id="LOCAL-00025" summary="完善文档">
+      <created>1563439262625</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1563439262625</updated>
+    </task>
+    <task id="LOCAL-00026" summary="完善文档">
+      <created>1563764242691</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1563764242692</updated>
+    </task>
+    <task id="LOCAL-00027" summary="完善文档">
+      <created>1564063855598</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1564063855598</updated>
+    </task>
+    <task id="LOCAL-00028" summary="完善文档">
+      <created>1564301239036</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1564301239036</updated>
+    </task>
+    <task id="LOCAL-00029" summary="完善文档">
+      <created>1564817202164</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1564817202164</updated>
+    </task>
+    <task id="LOCAL-00030" summary="测试switch的使用，java12中switch的使用">
+      <created>1566355874349</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1566355874349</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add git账号密码">
+      <created>1566356321652</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1566356321652</updated>
+    </task>
+    <task id="LOCAL-00032" summary="面试">
+      <created>1566455326002</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1566455326003</updated>
+    </task>
+    <task id="LOCAL-00033" summary="面试">
+      <created>1567519046816</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1567519046817</updated>
+    </task>
+    <task id="LOCAL-00034" summary="使用log4j2打印debug级别日志">
+      <created>1569553603617</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1569553603617</updated>
+    </task>
+    <task id="LOCAL-00035" summary="使用log4j2打印debug级别日志">
+      <created>1569570206189</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1569570206189</updated>
+    </task>
+    <task id="LOCAL-00036" summary="使用log4j2打印debug级别日志">
+      <created>1570515720621</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1570515720621</updated>
+    </task>
+    <task id="LOCAL-00037" summary="使用log4j2打印debug级别日志">
+      <created>1570517454181</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1570517454181</updated>
+    </task>
+    <task id="LOCAL-00038" summary="使用log4j2打印debug级别日志,打印sql日志输出到日志文件">
+      <created>1570605360892</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1570605360892</updated>
+    </task>
+    <task id="LOCAL-00039" summary="使用log4j2打印debug级别日志,打印sql日志输出到日志文件">
+      <created>1570615579788</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1570615579788</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
+>>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserTest_test - 2019.06.12 at 15h 49m 29s.xml">
-      <configuration name="UserTest.test" configurationId="JUnit" />
+    <history-entry file="Slf4jApplicationTests_contextLoads - 2019.09.25 at 21h 18m 49s.xml">
+      <configuration name="Slf4jApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_test - 2019.06.12 at 15h 55m 40s.xml">
-      <configuration name="UserTest.test" configurationId="JUnit" />
+    <history-entry file="Slf4jApplicationTests_contextLoads - 2019.09.25 at 21h 19m 02s.xml">
+      <configuration name="Slf4jApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_test - 2019.06.12 at 15h 56m 38s.xml">
-      <configuration name="UserTest.test" configurationId="JUnit" />
+    <history-entry file="Slf4jApplicationTests_contextLoads - 2019.09.25 at 21h 19m 59s.xml">
+      <configuration name="Slf4jApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_testThread - 2019.06.12 at 15h 57m 26s.xml">
-      <configuration name="UserTest.testThread" configurationId="JUnit" />
+    <history-entry file="Slf4jApplicationTests_contextLoads - 2019.09.25 at 21h 20m 27s.xml">
+      <configuration name="Slf4jApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_testThread - 2019.06.12 at 16h 12m 29s.xml">
-      <configuration name="UserTest.testThread" configurationId="JUnit" />
+    <history-entry file="Slf4jApplicationTests_contextLoads - 2019.09.25 at 21h 21m 36s.xml">
+      <configuration name="Slf4jApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_test - 2019.06.12 at 16h 12m 53s.xml">
-      <configuration name="UserTest.test" configurationId="JUnit" />
+    <history-entry file="Slf4jApplicationTests_contextLoads - 2019.09.25 at 21h 23m 33s.xml">
+      <configuration name="Slf4jApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_test - 2019.06.12 at 16h 14m 05s.xml">
-      <configuration name="UserTest.test" configurationId="JUnit" />
+    <history-entry file="Slf4jApplicationTests_contextLoads - 2019.09.25 at 21h 26m 48s.xml">
+      <configuration name="Slf4jApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_test - 2019.06.12 at 16h 17m 11s.xml">
-      <configuration name="UserTest.test" configurationId="JUnit" />
+    <history-entry file="Test_testListStream - 2019.09.26 at 18h 11m 46s.xml">
+      <configuration name="Test.testListStream" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DynamicMoreScheduleApplicationTests_testAddTrigger - 2019.06.12 at 16h 26m 51s.xml">
-      <configuration name="DynamicMoreScheduleApplicationTests.testAddTrigger" configurationId="JUnit" />
+    <history-entry file="Test_testListStream - 2019.09.26 at 18h 12m 01s.xml">
+      <configuration name="Test.testListStream" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DynamicMoreScheduleApplicationTests_testAddTrigger - 2019.06.12 at 16h 28m 43s.xml">
-      <configuration name="DynamicMoreScheduleApplicationTests.testAddTrigger" configurationId="JUnit" />
+    <history-entry file="Test_testListStream - 2019.09.26 at 18h 12m 16s.xml">
+      <configuration name="Test.testListStream" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="122835000" />
+=======
+    <option name="totallyTimeSpent" value="356761000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+>>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25037822" />
+=======
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.34039333" />
+>>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3295082" />
+      <window_info id="JRebel" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3286334" />
       <window_info anchor="bottom" id="Java Enterprise" order="1" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.3295082" />
-      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49924356" weight="0.33770493" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.3704918" />
+      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49924356" weight="0.447541" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.3295082" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.23442623" />
-      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49924356" weight="0.44918033" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.41243863" />
       <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50075644" side_tool="true" weight="0.44918033" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.38688526" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50075644" side_tool="true" weight="0.23442623" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
+>>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
       <window_info anchor="right" id="Bean Validation" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.32980332" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.32942432" />
+      <window_info anchor="right" id="Mybatis datasource" order="10" side_tool="true" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="11" weight="0.32980332" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -643,15 +1152,167 @@
     <MESSAGE value="填加elk日志查询展示功能" />
     <MESSAGE value="实现动态修改定时任务的定时时间" />
     <MESSAGE value="动态添加和取消定时任务" />
+<<<<<<< HEAD
     <MESSAGE value="添加java面试题库" />
     <MESSAGE value="添加测试类" />
     <option name="LAST_COMMIT_MESSAGE" value="添加测试类" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/utils/HttpClientUtils.java">
+=======
+    <MESSAGE value="格式化代码" />
+    <MESSAGE value="完善git文档" />
+    <MESSAGE value="完善文档" />
+    <MESSAGE value="测试switch的使用，java12中switch的使用" />
+    <MESSAGE value="add git账号密码" />
+    <MESSAGE value="面试" />
+    <MESSAGE value="使用log4j2打印debug级别日志" />
+    <MESSAGE value="使用log4j2打印debug级别日志,打印sql日志输出到日志文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用log4j2打印debug级别日志,打印sql日志输出到日志文件" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/elk/src/main/java/com/liu/elk/config/ReturnFormatConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="223">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elk/src/main/java/com/liu/elk/ElkApplication.java">
+>>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.10.RELEASE/spring-data-commons-2.1.10.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elk/src/main/java/com/liu/elk/service/impl/ElkServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elk/src/main/java/com/liu/elk/dao/ElkDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="71" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elk/src/test/java/com/liu/elk/ElkTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="111" column="66" selection-start-line="111" selection-start-column="56" selection-end-line="111" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/logstash.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/slf4j/src/main/resources/log4j-spring.properties" />
+    <entry file="file://$PROJECT_DIR$/slf4j/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slf4j/src/main/resources/log4j.xml" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.8.RELEASE/spring-boot-2.1.8.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="766" column="49" selection-start-line="766" selection-start-column="49" selection-end-line="766" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slf4j/src/main/java/com/liu/log/Slf4jApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slf4j/src/main/java/com/liu/log/controller/Log4jController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="19" column="69" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slf4j/src/main/java/com/liu/log/config/Log4jFileFormatDay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slf4j/src/test/java/com/liu/log/Test.java" />
+    <entry file="file://$PROJECT_DIR$/slf4j/src/test/java/com/liu/log/Slf4jApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slf4j/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="52" column="62" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slf4j/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="88" selection-start-line="11" selection-start-column="88" selection-end-line="11" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE.jar!/org/springframework/context/event/SimpleApplicationEventMulticaster.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/listener/ApplicationStartedEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="43" column="70" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -659,209 +1320,54 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="84" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/controller/LogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/logstash.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="51" lean-forward="true" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/funcProgram/BinaryOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/funcProgram/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/SchedulerInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="41" column="41" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/Scheduler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="18" column="55" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/schedule.java" />
-    <entry file="file://$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/common/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/utils/BeanUtils.java" />
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar!/org/springframework/scheduling/config/Task.class" />
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/dynamicSchedule/DefaultSchedulingConfigurer.java" />
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/stream/testStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4575">
-          <caret line="204" column="33" lean-forward="true" selection-start-line="204" selection-start-column="33" selection-end-line="204" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/utils/DynamicScheduleTaskUtils.java" />
-    <entry file="file://$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/schedule/testDynamicSchedule.java" />
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/mapper/User.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        <state relative-caret-position="275">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/UserTest.java">
+    <entry file="file://$PROJECT_DIR$/user-provider/deploy/sql/init_sql.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="400">
+          <caret line="16" column="73" lean-forward="true" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log4j2/src/main/resources/mapper/Cron.xml" />
+    <entry file="file://$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/bean/Cron.java" />
+    <entry file="file://$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/dao/CronDao.java" />
+    <entry file="file://$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/service/impl/CronServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/utils/RedisUtil.java" />
+    <entry file="file://$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/utils/contants/ScheduleContant.java" />
+    <entry file="file://$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/utils/RedisKeyUtil.java" />
+    <entry file="file://$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/service/CronService.java" />
+    <entry file="file://$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/utils/contants/ValidContant.java" />
+    <entry file="file://$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/utils/HttpClientUtils.java" />
+    <entry file="file://$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/utils/enumUtils/ResponseCode.java" />
+    <entry file="file://$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/pom.xml">
+    <entry file="file://$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="46" selection-end-line="124" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/utils/DynamicScheduleTask.java" />
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/utils/BeanUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2694">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/service/impl/CronServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/service/CronService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/dao/CronDao.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/bean/Cron.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/test/java/com/liu/sc/testDynamicSchedule.java" />
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/resources/mapper/Cron.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/controller/LogController.java" />
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="450">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -870,57 +1376,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/UserProviderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="12" selection-start-line="12" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/resources/mapper/User.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1167" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/test/java/com/liu/sc/DynamicMoreScheduleApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/.mvn/wrapper/MavenWrapperDownloader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450">
-          <caret lean-forward="true" />
+        <state relative-caret-position="225">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
           <folding>
-            <element signature="e#0#4629#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/utils/DynamicScheduleTaskUtils.java">
+    <entry file="file://$PROJECT_DIR$/user-provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+        <state relative-caret-position="203">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="32" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/DynamicMoreScheduleApplication.java">
+    <entry file="file://$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/utils/Response.java" />
+    <entry file="file://$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="200">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/log4j2/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2000">
+          <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log4j2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/Log4j2Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log4j2/src/main/resources/mapper/User.xml">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="61">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
@@ -930,38 +1445,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2075">
-          <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/dynamicSchedule/DynamicScheduleTask.java">
-      <provider selected="true" editor-type-id="text-editor">
+=======
         <state relative-caret-position="500">
-          <caret line="34" column="45" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="45" />
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+>>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/utils/DefaultSchedulingConfigurer.java">
+    <entry file="file://$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/controller/Log4jController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log4j2/src/main/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="875">
-          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1064#1065#0" expanded="true" />
-            <element signature="e#1114#1115#0" expanded="true" />
-            <element signature="e#2693#2694#0" expanded="true" />
-            <element signature="e#2736#2737#0" expanded="true" />
-            <element signature="e#2811#2812#0" expanded="true" />
-            <element signature="e#2870#2871#0" expanded="true" />
-            <element signature="e#2938#2939#0" expanded="true" />
-            <element signature="e#3032#3033#0" expanded="true" />
-          </folding>
+          <caret line="123" column="42" selection-start-line="123" selection-start-column="42" selection-end-line="123" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1017,11 +1532,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>config-client</last-edited>
+          <last-edited>elk</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

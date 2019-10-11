@@ -1,0 +1,27 @@
+server:
+  port: 9999
+  servlet:
+    context-path: /log4j2
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.69.56.159:9916/aa?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: Kingsoft.com123
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+pagehelper:
+  helper-dialect: mysql
+  reasonable: "true"
+  support-methods-arguments: "true"
+  params: count=countSql
+
+# 如果日志文件里面没有sql日志，需要添加如下配置
+#logging:
+#  level:
+#    com.ksyun.dc.quality.dao.mapper: DEBUG
+

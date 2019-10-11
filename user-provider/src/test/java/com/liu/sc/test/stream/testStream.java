@@ -3,6 +3,7 @@ package com.liu.sc.test.stream;
 import com.liu.sc.bean.User;
 import com.liu.sc.common.BaseTest;
 import com.liu.sc.service.UserService;
+import com.sun.org.apache.xml.internal.utils.StringComparable;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.math.NumberUtils;
@@ -134,6 +135,7 @@ public class testStream extends BaseTest {
     }
 
     // reduce操作可以实现从一组值中生成一个值，count、max、min
+    // reduce方法有两种形式，一种是需要有个初始值，另一种则不需要有初始值
     @Test
     public void testReduce() {
         List<User> userList = this.userService.findUserList(new User());
@@ -163,6 +165,8 @@ public class testStream extends BaseTest {
         int reduce = Stream.of(1, 2, 3)
                 .reduce(0, (acc, element) -> acc + element);
         Assert.assertEquals(6, reduce);
+
+//        userList.stream().reduce(reduce)
 
         int acc = 0;
         for (Integer ele : Arrays.asList(1, 2, 3)) {
@@ -203,5 +207,66 @@ public class testStream extends BaseTest {
                 summaryStatistics.getAverage(),summaryStatistics.getSum(),summaryStatistics.getCount());
         log.debug("debug === max is {},min is {},avg is {},sum is {},count is {}",summaryStatistics.getMax(),summaryStatistics.getMin(),
                 summaryStatistics.getAverage(),summaryStatistics.getSum(),summaryStatistics.getCount());
+    }
+
+    /**
+     * optional 用来替换null值
+     */
+    @Test
+    public void testOptional(){
+        // 创建某个值的Optional对象
+        Optional<String> a = Optional.of("a");
+        Assert.assertEquals("a",a.get());
+        // empty
+        Optional<Object> empty = Optional.empty();
+        // ofNullable 可将一个空值替换成Optional对象
+        Optional<String> s = Optional.ofNullable("");
+        // isParent 表示一个optional对象里是否有值
+        boolean present = empty.isPresent();
+        Assert.assertFalse(present);
+        boolean present1 = a.isPresent();
+        Assert.assertTrue(present1);
+    }
+
+    @Test
+    public void testToValue(){
+        List<User> userList = this.userService.findUserList(new User());
+        Optional<User> collect = userList.stream().collect(Collectors.maxBy(Comparator.comparing(User::getAge)));
+        System.out.println(collect.get());
+    }
+
+    @Test
+    public void testGroupingBy(){
+        List<User> userList = this.userService.findUserList(new User());
+        Map<Integer, List<User>> collect = userList.stream().collect(Collectors.groupingBy(User::getAge));
+        System.out.println(collect);
+        Map<Integer, Long> collect2 = userList.stream().collect(Collectors.groupingBy(User::getAge, Collectors.counting()));
+        System.out.println(collect2);
+        Map<Integer, List<String>> collect3 = userList.stream()
+                .collect(Collectors.groupingBy(User::getAge, Collectors.mapping(User::getUserName, Collectors.toList())));
+        System.out.println(collect3);
+        String collect1 = userList.stream().map(User::getUserName).collect(Collectors.joining(",","[","]"));
+        System.out.println(collect1);
+
+        StringBuilder sb = userList.stream()
+                .map(User::getUserName)
+                .reduce(new StringBuilder(),
+                        (builder, userName) -> {
+                            if (builder.length() > 0) {
+                                builder.append(",");
+                            }
+                            builder.append(userName);
+                            return builder;
+                        }, (builder1, builder2) -> builder1.append(builder2));
+        sb.insert(0,"[");
+        sb.append("]");
+        sb.toString();
+        System.out.println(sb);
+        /*String string = userList.stream()
+                .map(User::getUserName)
+                .reduce(new StringCombiner(",", "[", "]"),
+                        StringCombiner::add,
+                        StringCombiner::merge
+                ).toString();*/
     }
 }
