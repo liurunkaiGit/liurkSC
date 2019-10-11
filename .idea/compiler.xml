@@ -12,7 +12,6 @@
         <module name="elk" />
         <module name="slf4j" />
         <module name="microservice-simple-provider-user (1)" />
-        <module name="microservice-simple-provider-user (2)" />
         <module name="config-client" />
         <module name="microservice-simple-provider-user" />
       </profile>

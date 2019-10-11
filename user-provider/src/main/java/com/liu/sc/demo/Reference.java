@@ -15,7 +15,8 @@ public class Reference {
      * 强引用
      */
     private static void strongReference() {
-        Object obj1 = new Object();
+        Object obj1 = new Object(); //强引用
+        //把一个对象赋给一个引用变量，这个引用变量就是强引用,即obj2为强引用
         Object obj2 = obj1;
         obj1 = null;
         System.gc();
