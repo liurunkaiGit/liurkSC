@@ -4,13 +4,12 @@
     <bookmark url="file://$PROJECT_DIR$/user-provider/src/main/resources/mapper/Cron.xml" line="4" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
     <list default="true" id="d19c5857-920a-4dfa-82fb-e49e02a9041e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/OOM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/learnDoc/Java面试题库.docx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/learnDoc/Java面试题库.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/Reference.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/Reference.java" afterDir="false" />
     </list>
-=======
-    <list default="true" id="d19c5857-920a-4dfa-82fb-e49e02a9041e" name="Default Changelist" comment="使用log4j2打印debug级别日志,打印sql日志输出到日志文件" />
->>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
     <ignored path="$PROJECT_DIR$/flyway/target/" />
     <ignored path="$PROJECT_DIR$/docs/target/" />
     <ignored path="$PROJECT_DIR$/config-server/target/" />
@@ -44,99 +43,51 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log4j2/pom.xml">
+        <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/Reference.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="61">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-=======
-            <state relative-caret-position="2000">
-              <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
->>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/test/java/com/liu/sc/controller/UserControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-=======
-        <entry file="file://$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+            <state relative-caret-position="135">
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
->>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log4j2/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/Log4j2Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log4j2/src/main/resources/log4j2.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="875">
-              <caret line="123" column="42" selection-start-line="123" selection-start-column="42" selection-end-line="123" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/OOM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="100">
+              <caret line="135" column="24" selection-start-line="135" selection-start-column="24" selection-end-line="135" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#StackOverFlowErrorDemo#0" />
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="docComment;class#JavaHeapSpaceDemo#0" />
+                <element signature="class#JavaHeapSpaceDemo#0" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="docComment;class#O#0" />
+                <element signature="class#GCOverHeadLimitExceeded#0" />
+                <element signature="docComment;class#DirectBufferMemory#0" />
+                <element signature="class#DirectBufferMemory#0" />
+                <element signature="docComment;class#UnableToCreateNewNativeThread#0" />
+                <element signature="class#UnableToCreateNewNativeThread#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/Reference.java">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log4j2/src/main/resources/mapper/User.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/controller/Log4jController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+            <state relative-caret-position="-1924">
+              <caret line="1250" column="16" selection-start-line="1250" selection-start-column="16" selection-end-line="1250" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -148,8 +99,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -194,58 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/utils/contants/ValidContant.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/utils/contants/ScheduleContant.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/bean/Cron.java" />
-        <option value="$PROJECT_DIR$/flyway/src/main/resources/db/migration/V1.1__init_data.sql" />
-        <option value="$PROJECT_DIR$/flyway/src/main/resources/db/migration/V1.0__init_database.sql" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/resources/mapper/Cron.xml" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/service/impl/CronServiceImpl.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/service/CronService.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/dao/CronDao.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/SchedulerInterface.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/interceptor/WebMvcConfig.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/schedule/Scheduler.java" />
-        <option value="$PROJECT_DIR$/user-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/utils/HttpClientUtils.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/controller/LogController.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/filter/SessionFilter.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/filter/FilterConfig.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/interceptor/LoginInterceptor.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/resources/logback-spring.xml" />
-=======
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/BlockQueueDemo.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/ProducerConsumer_TranditionalDemo.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/ReentrantLockDemo.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/ProducerConsumer_BlockQueueDemo.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/CallableDemo.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/ThreadPoolDemo.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/DeadLockDemo.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/HelloGC.java" />
->>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
-        <option value="$PROJECT_DIR$/user-provider/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/elk/src/main/java/ElkApplication.java" />
-        <option value="$PROJECT_DIR$/elk/src/main/java/com/liu/elk/ElkConfig.java" />
-        <option value="$PROJECT_DIR$/elk/src/main/java/com/liu/elk/config/ElkConfig.java" />
-        <option value="$PROJECT_DIR$/elk/pom.xml" />
-        <option value="$PROJECT_DIR$/elk/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/elk/src/main/java/com/liu/elk/bean/EsBean.java" />
-        <option value="$PROJECT_DIR$/elk/src/main/java/com/liu/elk/bean/EsBeanGood.java" />
-        <option value="$PROJECT_DIR$/elk/src/main/java/com/liu/elk/service/ElkService.java" />
-        <option value="$PROJECT_DIR$/elk/src/main/java/com/liu/elk/service/impl/ElkServiceImpl.java" />
-        <option value="$PROJECT_DIR$/elk/src/main/java/com/liu/elk/dao/ElkDao.java" />
-        <option value="$PROJECT_DIR$/elk/src/main/java/com/liu/elk/query/Page.java" />
-        <option value="$PROJECT_DIR$/elk/src/main/java/com/liu/elk/query/EsBeanGoodQuery.java" />
-        <option value="$PROJECT_DIR$/elk/src/main/java/com/liu/elk/controller/ElkController.java" />
-        <option value="$PROJECT_DIR$/elk/src/main/java/com/liu/elk/config/ReturnFormatConfig.java" />
-        <option value="$PROJECT_DIR$/elk/src/main/java/com/liu/elk/ElkApplication.java" />
-        <option value="$PROJECT_DIR$/elk/src/test/java/com/liu/elk/ElkTest.java" />
-        <option value="$PROJECT_DIR$/user-provider/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/slf4j/src/test/java/com/liu/log/Slf4jApplicationTests.java" />
-        <option value="$PROJECT_DIR$/slf4j/src/main/resources/log4j-spring.properties" />
-        <option value="$PROJECT_DIR$/slf4j/src/main/java/com/liu/log/controller/Log4jController.java" />
         <option value="$PROJECT_DIR$/slf4j/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/slf4j/src/main/resources/log4j.xml" />
         <option value="$PROJECT_DIR$/slf4j/src/main/java/com/liu/log/config/Log4jFileFormatDay.java" />
@@ -260,7 +159,6 @@
         <option value="$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/service/UserService.java" />
         <option value="$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/UserProviderApplication.java" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/controller/UserController.java" />
         <option value="$PROJECT_DIR$/user-provider/src/main/resources/logstash.conf" />
         <option value="$PROJECT_DIR$/user-provider/src/test/java/com/liu/sc/test/funcProgram/BinaryOperator.java" />
@@ -289,7 +187,6 @@
         <option value="$PROJECT_DIR$/dynamic-more-schedule/pom.xml" />
         <option value="$PROJECT_DIR$/dynamic-more-schedule/src/test/java/com/liu/sc/controller/UserControllerTest.java" />
         <option value="$PROJECT_DIR$/dynamic-more-schedule/src/main/java/com/liu/sc/controller/UserController.java" />
-=======
         <option value="$PROJECT_DIR$/log4j2/pom.xml" />
         <option value="$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/log4j2/src/main/resources/mapper/User.xml" />
@@ -298,14 +195,14 @@
         <option value="$PROJECT_DIR$/log4j2/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/log4j2/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/Reference.java" />
->>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
+        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/OOM.java" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../soft/apache-maven-3.6.0" />
+        <option name="mavenHome" value="D:/../soft/apache-maven-3.6.0" />
         <option name="userSettingsFile" value="D:\book\soft\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -348,6 +245,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -404,9 +303,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -419,15 +315,6 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-<<<<<<< HEAD
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/learnDoc" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
-=======
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -440,7 +327,6 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
->>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -454,19 +340,11 @@
       <recent name="com.liu.sc.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-<<<<<<< HEAD
-      <recent name="D:\IdeaWorkspace\liurkSC\docs\learnDoc" />
-      <recent name="D:\ideaWorkSpace\gitSc\liurkSC\dynamic-more-schedule\src\main\resources" />
-      <recent name="D:\ideaWorkSpace\gitSc\liurkSC\dynamic-more-schedule\src\test\java\com\liu\sc" />
-      <recent name="D:\ideaWorkSpace\gitSc\liurkSC\dynamic-more-schedule\src\main\java\com\liu\sc" />
-      <recent name="D:\ideaWorkSpace\gitSc\liurkSC\dynamic-more-schedule\src\main\java\com\liu\sc\utils" />
-=======
       <recent name="D:\book\ideaWorkSpace\gitSc\liurkSC\log4j2\src\main\java\com\log\log4j2" />
       <recent name="D:\book\ideaWorkSpace\gitSc\liurkSC\log4j2\src\main\resources" />
       <recent name="D:\ideaWorkSpace\gitSc\liurkSC\dynamic-more-schedule\src\test\java\com\liu\sc" />
       <recent name="D:\ideaWorkSpace\gitSc\liurkSC\user-provider\src\test\java\com\liu\sc\test\stream" />
       <recent name="D:\ideaWorkSpace\gitSc\liurkSC\dynamic-more-schedule\src\main\resources" />
->>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
     </key>
   </component>
   <component name="RunDashboard">
@@ -481,10 +359,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Reference">
-    <configuration name="HelloGC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.sc.demo.HelloGC" />
-      <module name="microservice-simple-provider-user" />
+  <component name="RunManager" selected="Application.MetaSpace">
+    <configuration name="DirectBufferMemory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.sc.demo.DirectBufferMemory" />
+      <module name="microservice-simple-provider-user (1)" />
+      <option name="VM_PARAMETERS" value="-Xms10m -Xmx10m -XX:+PrintGCDetails -XX:MaxDirectMemorySize=5m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liu.sc.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GCOverHeadLimitExceeded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.sc.demo.GCOverHeadLimitExceeded" />
+      <module name="microservice-simple-provider-user (1)" />
+      <option name="VM_PARAMETERS" value="-Xms5m -Xmx5m -XX:+PrintGCDetails -XX:MaxDirectMemorySize=2m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liu.sc.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MetaSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.sc.demo.MetaSpace" />
+      <module name="microservice-simple-provider-user (1)" />
+      <option name="VM_PARAMETERS" value="-XX:MetaspaceSize=8m -XX:MaxMetaspaceSize=8m" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.liu.sc.demo.*" />
@@ -508,50 +415,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElkTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="elk" />
+    <configuration name="StackOverFlowErrorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.sc.demo.StackOverFlowErrorDemo" />
+      <module name="microservice-simple-provider-user (1)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liu.elk.*" />
+          <option name="PATTERN" value="com.liu.sc.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.liu.elk" />
-      <option name="MAIN_CLASS_NAME" value="com.liu.elk.ElkTest" />
-      <option name="METHOD_NAME" value="testInsert" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Slf4jApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="slf4j" />
+    <configuration name="UnableToCreateNewNativeThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.sc.demo.UnableToCreateNewNativeThread" />
+      <module name="microservice-simple-provider-user (1)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liu.log.*" />
+          <option name="PATTERN" value="com.liu.sc.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.liu.log" />
-      <option name="MAIN_CLASS_NAME" value="com.liu.log.Slf4jApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test.testListStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="slf4j" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liu.log.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.liu.log" />
-      <option name="MAIN_CLASS_NAME" value="com.liu.log.Test" />
-      <option name="METHOD_NAME" value="testListStream" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -606,10 +491,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HelloGC" />
-      <item itemvalue="JUnit.ElkTest.testInsert" />
-      <item itemvalue="JUnit.Slf4jApplicationTests.contextLoads" />
-      <item itemvalue="JUnit.Test.testListStream" />
+      <item itemvalue="Application.StackOverFlowErrorDemo" />
+      <item itemvalue="Application.GCOverHeadLimitExceeded" />
+      <item itemvalue="Application.DirectBufferMemory" />
+      <item itemvalue="Application.UnableToCreateNewNativeThread" />
+      <item itemvalue="Application.MetaSpace" />
       <item itemvalue="Spring Boot.ConfigClientApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.DynamicMoreScheduleApplication" />
@@ -617,15 +503,14 @@
       <item itemvalue="Spring Boot.ElkApplication" />
       <item itemvalue="Spring Boot.Slf4jApplication" />
       <item itemvalue="Spring Boot.Log4j2Application" />
-      <item itemvalue="Application.Reference" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Reference" />
-        <item itemvalue="JUnit.Test.testListStream" />
-        <item itemvalue="JUnit.Slf4jApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.ElkTest.testInsert" />
-        <item itemvalue="Application.HelloGC" />
+        <item itemvalue="Application.MetaSpace" />
+        <item itemvalue="Application.UnableToCreateNewNativeThread" />
+        <item itemvalue="Application.DirectBufferMemory" />
+        <item itemvalue="Application.GCOverHeadLimitExceeded" />
+        <item itemvalue="Application.StackOverFlowErrorDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -646,12 +531,6 @@
       <workItem from="1559528768206" duration="1008000" />
       <workItem from="1559530269856" duration="54573000" />
       <workItem from="1560326898713" duration="5731000" />
-<<<<<<< HEAD
-      <workItem from="1560333400724" duration="8451000" />
-      <workItem from="1560602173060" duration="1195000" />
-      <workItem from="1560603432335" duration="1413000" />
-      <workItem from="1570800641085" duration="457000" />
-=======
       <workItem from="1560333400724" duration="34455000" />
       <workItem from="1563162433641" duration="666000" />
       <workItem from="1563172652494" duration="1281000" />
@@ -690,7 +569,6 @@
       <workItem from="1570677768447" duration="1201000" />
       <workItem from="1570763496453" duration="646000" />
       <workItem from="1570770768799" duration="2306000" />
->>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
     </task>
     <task id="LOCAL-00001" summary="新增初始化数据sql">
       <created>1558671577212</created>
@@ -839,23 +717,6 @@
       <option name="project" value="LOCAL" />
       <updated>1560333864744</updated>
     </task>
-<<<<<<< HEAD
-    <task id="LOCAL-00022" summary="添加java面试题库">
-      <created>1560604007840</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1560604007840</updated>
-    </task>
-    <task id="LOCAL-00023" summary="添加测试类">
-      <created>1560604249703</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1560604249703</updated>
-    </task>
-    <option name="localTasksCounter" value="24" />
-=======
     <task id="LOCAL-00022" summary="动态添加和取消定时任务">
       <created>1560511035697</created>
       <option name="number" value="00022" />
@@ -983,7 +844,6 @@
       <updated>1570615579788</updated>
     </task>
     <option name="localTasksCounter" value="40" />
->>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
     <servers />
   </component>
   <component name="TestHistory">
@@ -1019,10 +879,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="122835000" />
-=======
-    <option name="totallyTimeSpent" value="356761000" />
+    <option name="totallyTimeSpent" value="369795000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1032,17 +889,12 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
->>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
-<<<<<<< HEAD
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25037822" />
-=======
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.34039333" />
->>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -1055,8 +907,8 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.3704918" />
-      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49924356" weight="0.447541" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.36988544" />
+      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49924356" weight="0.44680852" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.3295082" />
@@ -1064,14 +916,9 @@
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49924356" weight="0.44918033" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-<<<<<<< HEAD
-      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.41243863" />
-      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50075644" side_tool="true" weight="0.44918033" />
-=======
-      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.38688526" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.7201309" />
       <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50075644" side_tool="true" weight="0.23442623" />
       <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
->>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
       <window_info anchor="right" id="Bean Validation" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -1152,14 +999,6 @@
     <MESSAGE value="填加elk日志查询展示功能" />
     <MESSAGE value="实现动态修改定时任务的定时时间" />
     <MESSAGE value="动态添加和取消定时任务" />
-<<<<<<< HEAD
-    <MESSAGE value="添加java面试题库" />
-    <MESSAGE value="添加测试类" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加测试类" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/utils/HttpClientUtils.java">
-=======
     <MESSAGE value="格式化代码" />
     <MESSAGE value="完善git文档" />
     <MESSAGE value="完善文档" />
@@ -1171,31 +1010,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="使用log4j2打印debug级别日志,打印sql日志输出到日志文件" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/elk/src/main/java/com/liu/elk/config/ReturnFormatConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/elk/src/main/java/com/liu/elk/ElkApplication.java">
->>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.10.RELEASE/spring-data-commons-2.1.10.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.10.RELEASE/spring-data-commons-2.1.10.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class" />
     <entry file="file://$PROJECT_DIR$/elk/src/main/java/com/liu/elk/service/impl/ElkServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
@@ -1245,13 +1067,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/slf4j/src/main/resources/log4j.xml" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.8.RELEASE/spring-boot-2.1.8.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="766" column="49" selection-start-line="766" selection-start-column="49" selection-end-line="766" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.8.RELEASE/spring-boot-2.1.8.RELEASE.jar!/org/springframework/boot/SpringApplication.class" />
     <entry file="file://$PROJECT_DIR$/slf4j/src/main/java/com/liu/log/Slf4jApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1302,13 +1118,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE.jar!/org/springframework/context/event/SimpleApplicationEventMulticaster.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE.jar!/org/springframework/context/event/SimpleApplicationEventMulticaster.class" />
     <entry file="file://$PROJECT_DIR$/log4j2/src/main/java/com/log/log4j2/listener/ApplicationStartedEventListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
@@ -1435,20 +1245,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/log4j2/src/main/resources/mapper/User.xml">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="61">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-more-schedule/src/test/java/com/liu/sc/controller/UserControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-=======
         <state relative-caret-position="500">
           <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
->>>>>>> a265cf39b3570aa6d9ab1db95b9b2cbc3fddb41c
         </state>
       </provider>
     </entry>
@@ -1468,8 +1266,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/Reference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="135">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1477,6 +1278,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/OOM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="135" column="24" selection-start-line="135" selection-start-column="24" selection-end-line="135" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#StackOverFlowErrorDemo#0" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="docComment;class#JavaHeapSpaceDemo#0" />
+            <element signature="class#JavaHeapSpaceDemo#0" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="docComment;class#O#0" />
+            <element signature="class#GCOverHeadLimitExceeded#0" />
+            <element signature="docComment;class#DirectBufferMemory#0" />
+            <element signature="class#DirectBufferMemory#0" />
+            <element signature="docComment;class#UnableToCreateNewNativeThread#0" />
+            <element signature="class#UnableToCreateNewNativeThread#0" />
+          </folding>
         </state>
       </provider>
     </entry>
