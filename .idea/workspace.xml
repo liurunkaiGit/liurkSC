@@ -5,10 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d19c5857-920a-4dfa-82fb-e49e02a9041e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/OOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/GarbageCollectorUse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_0_7_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_0_7_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_55.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_55.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_55.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_55.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_3_6_1_201501031845_r.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_3_6_1_201501031845_r.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_5_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_5_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_1_3_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_1_3_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_1_4_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_1_4_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_1_4_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_1_4_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_1_3_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_1_3_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_1_3_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_1_3_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_1_4_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_1_4_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_4_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_4_2_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/learnDoc/Java面试题库.docx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/learnDoc/Java面试题库.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/Reference.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/Reference.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/flyway/target/" />
     <ignored path="$PROJECT_DIR$/docs/target/" />
@@ -43,11 +59,11 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/Reference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="500">
               <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -56,23 +72,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/OOM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="135" column="24" selection-start-line="135" selection-start-column="24" selection-end-line="135" selection-end-column="24" />
+            <state relative-caret-position="25">
+              <caret line="132" column="44" selection-start-line="132" selection-start-column="44" selection-end-line="132" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="class#StackOverFlowErrorDemo#0" />
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#186#187#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
                 <element signature="docComment;class#JavaHeapSpaceDemo#0" />
                 <element signature="class#JavaHeapSpaceDemo#0" />
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
-                <element signature="docComment;class#O#0" />
                 <element signature="class#GCOverHeadLimitExceeded#0" />
                 <element signature="docComment;class#DirectBufferMemory#0" />
                 <element signature="class#DirectBufferMemory#0" />
@@ -83,11 +92,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/GarbageCollectorUse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1924">
-              <caret line="1250" column="16" selection-start-line="1250" selection-start-column="16" selection-end-line="1250" selection-end-column="16" />
+            <state relative-caret-position="32350">
+              <caret line="1301" column="16" selection-start-line="1301" selection-start-column="16" selection-end-line="1301" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -145,7 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/slf4j/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/slf4j/src/main/resources/log4j.xml" />
         <option value="$PROJECT_DIR$/slf4j/src/main/java/com/liu/log/config/Log4jFileFormatDay.java" />
         <option value="$PROJECT_DIR$/slf4j/src/main/resources/log4j.properties" />
@@ -196,6 +213,7 @@
         <option value="$PROJECT_DIR$/log4j2/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/Reference.java" />
         <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/OOM.java" />
+        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/GarbageCollectorUse.java" />
       </list>
     </option>
   </component>
@@ -231,7 +249,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -253,6 +271,11 @@
             <path>
               <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
               <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
@@ -359,7 +382,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MetaSpace">
+  <component name="RunManager" selected="Application.GarbageCollectorUse">
     <configuration name="DirectBufferMemory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.liu.sc.demo.DirectBufferMemory" />
       <module name="microservice-simple-provider-user (1)" />
@@ -388,36 +411,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GarbageCollectorUse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.sc.demo.GarbageCollectorUse" />
+      <module name="microservice-simple-provider-user (1)" />
+      <option name="VM_PARAMETERS" value="-Xms10m -Xmx10m -XX:+PrintGCDetails -XX:+PrintCommandLineFlags -XX:+UseG1GC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liu.sc.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MetaSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.liu.sc.demo.MetaSpace" />
       <module name="microservice-simple-provider-user (1)" />
       <option name="VM_PARAMETERS" value="-XX:MetaspaceSize=8m -XX:MaxMetaspaceSize=8m" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liu.sc.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Reference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.sc.demo.Reference" />
-      <module name="microservice-simple-provider-user" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liu.sc.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackOverFlowErrorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.sc.demo.StackOverFlowErrorDemo" />
-      <module name="microservice-simple-provider-user (1)" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.liu.sc.demo.*" />
@@ -491,11 +502,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StackOverFlowErrorDemo" />
       <item itemvalue="Application.GCOverHeadLimitExceeded" />
       <item itemvalue="Application.DirectBufferMemory" />
       <item itemvalue="Application.UnableToCreateNewNativeThread" />
       <item itemvalue="Application.MetaSpace" />
+      <item itemvalue="Application.GarbageCollectorUse" />
       <item itemvalue="Spring Boot.ConfigClientApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.DynamicMoreScheduleApplication" />
@@ -506,11 +517,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GarbageCollectorUse" />
         <item itemvalue="Application.MetaSpace" />
         <item itemvalue="Application.UnableToCreateNewNativeThread" />
         <item itemvalue="Application.DirectBufferMemory" />
         <item itemvalue="Application.GCOverHeadLimitExceeded" />
-        <item itemvalue="Application.StackOverFlowErrorDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -569,6 +580,8 @@
       <workItem from="1570677768447" duration="1201000" />
       <workItem from="1570763496453" duration="646000" />
       <workItem from="1570770768799" duration="2306000" />
+      <workItem from="1571362789433" duration="226000" />
+      <workItem from="1571549298667" duration="1586000" />
     </task>
     <task id="LOCAL-00001" summary="新增初始化数据sql">
       <created>1558671577212</created>
@@ -879,7 +892,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="369795000" />
+    <option name="totallyTimeSpent" value="372539000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -891,34 +904,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info id="Web" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24962178" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info id="JRebel" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3286334" />
-      <window_info anchor="bottom" id="Java Enterprise" order="1" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="2" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.36988544" />
-      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49924356" weight="0.44680852" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" weight="0.3295082" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49924356" weight="0.44918033" />
-      <window_info anchor="bottom" id="Spring" order="12" weight="0.3295082" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.7201309" />
-      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50075644" side_tool="true" weight="0.23442623" />
-      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="JRebel" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Web" order="0" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.3286334" />
+      <window_info anchor="bottom" id="Java Enterprise" order="2" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.9279869" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49924356" weight="0.44680852" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.3295082" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49924356" weight="0.44918033" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.3295082" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Terminal" order="15" weight="0.29296234" />
+      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.50075644" side_tool="true" weight="0.23442623" />
+      <window_info anchor="bottom" id="JRebel Console" order="17" side_tool="true" />
       <window_info anchor="right" id="Bean Validation" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -1010,14 +1023,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="使用log4j2打印debug级别日志,打印sql日志输出到日志文件" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/elk/src/main/java/com/liu/elk/ElkApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.10.RELEASE/spring-data-commons-2.1.10.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class" />
     <entry file="file://$PROJECT_DIR$/elk/src/main/java/com/liu/elk/service/impl/ElkServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
@@ -1264,16 +1269,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/Reference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1281,28 +1276,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32350">
+          <caret line="1301" column="16" selection-start-line="1301" selection-start-column="16" selection-end-line="1301" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/OOM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="135" column="24" selection-start-line="135" selection-start-column="24" selection-end-line="135" selection-end-column="24" />
+        <state relative-caret-position="25">
+          <caret line="132" column="44" selection-start-line="132" selection-start-column="44" selection-end-line="132" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#StackOverFlowErrorDemo#0" />
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
             <element signature="docComment;class#JavaHeapSpaceDemo#0" />
             <element signature="class#JavaHeapSpaceDemo#0" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="docComment;class#O#0" />
             <element signature="class#GCOverHeadLimitExceeded#0" />
             <element signature="docComment;class#DirectBufferMemory#0" />
             <element signature="class#DirectBufferMemory#0" />
             <element signature="docComment;class#UnableToCreateNewNativeThread#0" />
             <element signature="class#UnableToCreateNewNativeThread#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/liu/sc/demo/GarbageCollectorUse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
         </state>
       </provider>
     </entry>
