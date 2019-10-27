@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-order-service-comsumer/dubbo-order-service-comsumer.iml" filepath="$PROJECT_DIR$/dubbo-order-service-comsumer/dubbo-order-service-comsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service-common/dubbo-service-common.iml" filepath="$PROJECT_DIR$/dubbo-service-common/dubbo-service-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-user-service-provider/dubbo-user-service-provider.iml" filepath="$PROJECT_DIR$/dubbo-user-service-provider/dubbo-user-service-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/dynamic-more-schedule/dynamic-more-schedule.iml" filepath="$PROJECT_DIR$/dynamic-more-schedule/dynamic-more-schedule.iml" />
       <module fileurl="file://$PROJECT_DIR$/elk/elk.iml" filepath="$PROJECT_DIR$/elk/elk.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/liurkSC.iml" filepath="$PROJECT_DIR$/.idea/liurkSC.iml" />

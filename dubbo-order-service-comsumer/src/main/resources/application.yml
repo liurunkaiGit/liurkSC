@@ -1,0 +1,15 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /dubboOrderServiceConsumer
+
+dubbo:
+  application:
+    # 指定当前服务/应用的名字
+    name: dubbo-order-service-comsumer
+  registry:
+    # 指定注册中心的协议及地址
+    address: zookeeper://127.0.0.1:2181
+  monitor:
+    # 监控中心
+    protocol: registry
