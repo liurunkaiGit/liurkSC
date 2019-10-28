@@ -15,9 +15,9 @@
         <option value="$PROJECT_DIR$/user-provider/pom.xml" />
         <option value="$PROJECT_DIR$/zookeeper/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-user-service-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/dubbo-order-service-comsumer/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-service-common/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-springBoot/dubbo-user-service-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-order-service-comsumer/pom.xml" />
       </list>
     </option>
   </component>

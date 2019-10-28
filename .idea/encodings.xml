@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$/config-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-order-service-comsumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-order-service-comsumer/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-service-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-user-service-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-user-service-provider/src/main/resources/application.yml" charset="UTF-8" />
