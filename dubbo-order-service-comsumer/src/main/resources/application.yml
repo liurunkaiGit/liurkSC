@@ -24,3 +24,5 @@ dubbo:
     retries: 3
     # 当生产者存在多版本的时候，我们可以设置指定的调用版本，从而实现灰度发布(一部分用老版本，一部分用新版本，当新版本测试稳定后，全部替换为新版本)
     version: *
+    # 负载均衡策略，默认随机：random    轮询：roundrobin   通过dubbo控制台页面设置生产者权重(倍权和半权按钮)
+    loadbalance: roundrobin
