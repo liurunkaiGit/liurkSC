@@ -1,0 +1,18 @@
+dubbo:
+  application:
+    # 指定当前服务/应用的名字
+    name: dubbo-user-service-provider
+  registry:
+    # 指定注册中心的地址
+    address: 127.0.0.1:2181
+    # 指定使用zookeeper作为注册中心
+    protocol: zookeeper
+  protocol:
+    # 指定通信规则，协议和端口
+    name: dubbo
+    port: 20880
+  monitor:
+    # 监控中心
+    protocol: registry
+server:
+  port: 8091

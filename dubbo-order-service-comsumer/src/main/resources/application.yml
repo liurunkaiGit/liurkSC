@@ -1,0 +1,28 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /dubboOrderServiceConsumer
+
+dubbo:
+  application:
+    # 服务名
+    name: dubbo-order-service-comsumer
+  registry:
+    # 配置注册中心的协议及地址
+    address: zookeeper://127.0.0.1:2181
+  monitor:
+    # 配置监控中心
+    protocol: registry
+  # 下面关于consumer的配置都是全局的，做不到方法级别，如果想要做到方法级别，需要使用xml配置文件
+  consumer:
+    # 启动时检查注册中心是否有生产者，如果没有，则报错，默认为true，如果设置为false，启动时不检查，调用时检查
+    check: true
+    # 设置超时时间，单位ms，默认1000，方法级别》接口级别》全局配置，如果级别一致，消费者配置优于生产者配置
+    timeout: 3000
+    # 重试次数，默认重试两次，不包含第一次调用，如果配置为3，则会调用4次
+    # 幂等(可以设置重试次数，查询、删除、修改)：方法运行几次最终结果都是一致的，非幂等(不可以设置重试次数：增加)：方法每次运行结果不一样
+    retries: 3
+    # 当生产者存在多版本的时候，我们可以设置指定的调用版本，从而实现灰度发布(一部分用老版本，一部分用新版本，当新版本测试稳定后，全部替换为新版本)
+    version: *
+    # 负载均衡策略，默认随机：random    轮询：roundrobin   通过dubbo控制台页面设置生产者权重(倍权和半权按钮)
+    loadbalance: roundrobin
