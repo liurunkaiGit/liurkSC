@@ -4,15 +4,18 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper/demo.iml" filepath="$PROJECT_DIR$/zookeeper/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-order-service-comsumer/dubbo-order-service-comsumer.iml" filepath="$PROJECT_DIR$/dubbo-order-service-comsumer/dubbo-order-service-comsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-order-service-comsumer/dubbo-order-service-comsumer.iml" filepath="$PROJECT_DIR$/dubbo-order-service-comsumer/dubbo-order-service-comsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service-common/dubbo-service-common.iml" filepath="$PROJECT_DIR$/dubbo-service-common/dubbo-service-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-service-common/dubbo-service-common.iml" filepath="$PROJECT_DIR$/dubbo-service-common/dubbo-service-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-user-service-provider/dubbo-user-service-provider.iml" filepath="$PROJECT_DIR$/dubbo-user-service-provider/dubbo-user-service-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/dynamic-more-schedule/dynamic-more-schedule.iml" filepath="$PROJECT_DIR$/dynamic-more-schedule/dynamic-more-schedule.iml" />
       <module fileurl="file://$PROJECT_DIR$/elk/elk.iml" filepath="$PROJECT_DIR$/elk/elk.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/liurkSC.iml" filepath="$PROJECT_DIR$/.idea/liurkSC.iml" />
       <module fileurl="file://$PROJECT_DIR$/log4j2/log4j2.iml" filepath="$PROJECT_DIR$/log4j2/log4j2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/user-provider/microservice-simple-provider-user.iml" filepath="$PROJECT_DIR$/user-provider/microservice-simple-provider-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/dynamic-more-schedule/microservice-simple-provider-user.iml" filepath="$PROJECT_DIR$/dynamic-more-schedule/microservice-simple-provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-provider/microservice-simple-provider-user.iml" filepath="$PROJECT_DIR$/user-provider/microservice-simple-provider-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-provider/microservice-simple-provider-user (1).iml" filepath="$PROJECT_DIR$/user-provider/microservice-simple-provider-user (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/slf4j/slf4j.iml" filepath="$PROJECT_DIR$/slf4j/slf4j.iml" />
       <module fileurl="file://$PROJECT_DIR$/zookeeper/zookeeper.iml" filepath="$PROJECT_DIR$/zookeeper/zookeeper.iml" />
