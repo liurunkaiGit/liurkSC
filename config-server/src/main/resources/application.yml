@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://gitee.com/liurunkai/config-repo
+          uri: https://github.com/liurunkaiGit/config-repo
           username: liurunkai
           password: lrk291988731
           basedir: D:\ideaWorkSpace\config-sc

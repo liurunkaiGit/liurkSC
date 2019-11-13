@@ -6,19 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demo" />
-        <module name="dynamic-more-schedule" />
-        <module name="log4j2" />
+        <module name="microservice-simple-provider-user (2)" />
         <module name="config-server" />
+        <module name="config-client" />
+        <module name="dubbo-user-service-provider" />
+        <module name="microservice-simple-provider-user" />
+        <module name="demo" />
+        <module name="dubbo-order-service-comsumer" />
         <module name="elk" />
+        <module name="zookeeper" />
+        <module name="log4j2" />
         <module name="slf4j" />
         <module name="microservice-simple-provider-user (1)" />
-        <module name="dubbo-user-service-provider" />
-        <module name="dubbo-order-service-comsumer" />
         <module name="dubbo-service-common" />
-        <module name="zookeeper" />
-        <module name="config-client" />
-        <module name="microservice-simple-provider-user" />
+        <module name="dynamic-more-schedule" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
