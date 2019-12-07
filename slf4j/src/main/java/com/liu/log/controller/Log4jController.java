@@ -19,8 +19,11 @@ public class Log4jController {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
+    /**
+     * 测试日志打印
+     */
     @GetMapping("/testLog")
-    public void testPringLog(){
+    public void testPringLog() {
         log.info("这是log4j.properties日志：info");
         log.debug("这是log4j.properties日志：debug");
         log.error("这是log4j.properties日志：error");
