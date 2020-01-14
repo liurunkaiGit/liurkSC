@@ -1,6 +1,7 @@
 package com.liu.shiro.utils.sha256;
 
 import lombok.NoArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.shiro.crypto.hash.SimpleHash;
 
 /**
@@ -8,6 +9,7 @@ import org.apache.shiro.crypto.hash.SimpleHash;
  * @author: liurunkai
  * @Date: 2020/1/7 10:42
  */
+@Slf4j
 @NoArgsConstructor
 public class SHA256Util {
 
@@ -25,6 +27,11 @@ public class SHA256Util {
      */
     public static String sha256Encrypt(String password, String salt) {
         return new SimpleHash(ENCRYPT_ALGORITHM, password, salt, CYCLE_NUM).toString();
+    }
+
+    public static void main(String[] args) {
+        String password = sha256Encrypt("123456", "15");
+        log.info("password" + password);
     }
 
 }

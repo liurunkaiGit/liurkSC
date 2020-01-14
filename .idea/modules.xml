@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/log4j2/log4j2.iml" filepath="$PROJECT_DIR$/log4j2/log4j2.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-provider/microservice-simple-provider-user.iml" filepath="$PROJECT_DIR$/user-provider/microservice-simple-provider-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/shiro/shiro.iml" filepath="$PROJECT_DIR$/shiro/shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shiro-thymeleaf/shiro-thymeleaf.iml" filepath="$PROJECT_DIR$/shiro-thymeleaf/shiro-thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/slf4j/slf4j.iml" filepath="$PROJECT_DIR$/slf4j/slf4j.iml" />
       <module fileurl="file://$PROJECT_DIR$/zookeeper/zookeeper.iml" filepath="$PROJECT_DIR$/zookeeper/zookeeper.iml" />
     </modules>

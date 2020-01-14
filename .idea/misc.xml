@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/dubbo-springBoot/dubbo-user-service-provider/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-order-service-comsumer/pom.xml" />
         <option value="$PROJECT_DIR$/shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/shiro-thymeleaf/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,0 +1,42 @@
+1. springBoot整合shiro
+    导入依赖
+    <!-- Shiro 核心依赖 -->
+    <dependency>
+        <groupId>org.apache.shiro</groupId>
+        <artifactId>shiro-spring</artifactId>
+        <version>1.4.0</version>
+    </dependency>
+2. springBoot整合thymeleaf
+    导入依赖
+    <!--thymeleaf页面模板，默认模板名以html结尾-->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-thymeleaf</artifactId>
+    </dependency>
+
+3. 编写shiro配置类
+    3.1 编写自定义realm类：com.liu.shirothymeleaf.shiro.ShiroRealm
+    3.2 编写shiro配置类：com.liu.shirothymeleaf.shiro.ShiroConfig
+
+4. 使用shiro内置过滤器实现页面的拦截，在ShiroConfig类里面进行配置
+
+5. 实现用户认证(登录):LoginController里面的login方法
+    subject.login(token);这一行代码去真正执行登录，跳转到ShiroRealm类里面执行用户认证逻辑
+
+6. 在ShiroRealm里面实现用户授权
+    在ShiroConfig里面设置用户授权eg：filterChainDefinitionMap.put("/user/add", "perms[sys:user:add]");
+    会自动调用ShiroRealm里面的授权方法：doGetAuthorizationInfo，通过SimpleAuthorizationInfo授权
+
+7. thymeleaf和shiro标签整合
+    导入thymeleaf对shiro的扩展的依赖
+    在ShiroConfig里面配置shiroDialect，用于thymeleaf和shiro标签整合使用
+    <div shiro:hasPermission="sys:user:add">
+        <form id="add" method="post" action="/user/add">
+            <input type="submit" value="新增">
+        </form>
+    </div>
+    <div shiro:hasPermission="sys:user:update">
+        <form id="update" method="post" action="/user/update">
+            <input type="submit" value="修改">
+        </form>
+    </div>
