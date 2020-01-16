@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/dubbo-order-service-comsumer/pom.xml" />
         <option value="$PROJECT_DIR$/shiro/pom.xml" />
         <option value="$PROJECT_DIR$/shiro-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security/pom.xml" />
       </list>
     </option>
   </component>

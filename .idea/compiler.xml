@@ -10,9 +10,10 @@
         <module name="config-client" />
         <module name="dubbo-user-service-provider" />
         <module name="demo" />
-        <module name="dubbo-order-service-comsumer" />
         <module name="elk" />
+        <module name="dubbo-order-service-comsumer" />
         <module name="shiro" />
+        <module name="spring-security" />
         <module name="shiro-thymeleaf" />
         <module name="zookeeper" />
         <module name="log4j2" />
@@ -38,6 +39,7 @@
       <module name="shiro" target="1.8" />
       <module name="shiro-thymeleaf" target="1.8" />
       <module name="slf4j" target="1.8" />
+      <module name="spring-security" target="1.8" />
       <module name="zookeeper" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -53,6 +55,7 @@
       <module name="shiro" options="-parameters" />
       <module name="shiro-thymeleaf" options="-parameters" />
       <module name="slf4j" options="-parameters" />
+      <module name="spring-security" options="-parameters" />
       <module name="zookeeper" options="-parameters" />
     </option>
   </component>

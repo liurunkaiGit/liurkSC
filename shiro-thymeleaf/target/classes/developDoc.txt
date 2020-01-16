@@ -30,3 +30,13 @@
 7. thymeleaf和shiro标签整合
     导入thymeleaf对shiro的扩展的依赖
     在ShiroConfig里面配置shiroDialect，用于thymeleaf和shiro标签整合使用
+    <div shiro:hasPermission="sys:user:add">
+        <form id="add" method="post" action="/user/add">
+            <input type="submit" value="新增">
+        </form>
+    </div>
+    <div shiro:hasPermission="sys:user:update">
+        <form id="update" method="post" action="/user/update">
+            <input type="submit" value="修改">
+        </form>
+    </div>

@@ -59,8 +59,8 @@ public class ShiroRealm extends AuthorizingRealm {
             }
         }
         // 将查询到的角色和权限分别设置到simpleAuthorizationInfo中
-        simpleAuthorizationInfo.setRoles(roleSet);
-        simpleAuthorizationInfo.setStringPermissions(permSet);
+        simpleAuthorizationInfo.setRoles(roleSet);//基于角色的访问控制
+        simpleAuthorizationInfo.setStringPermissions(permSet);// 基于资源的访问控制
         return simpleAuthorizationInfo;
     }
 
@@ -79,7 +79,7 @@ public class ShiroRealm extends AuthorizingRealm {
         SysUser sysUser = this.sysUserService.selectUserByName(userName);
         // 判断用户是否存在
         if (sysUser == null) {
-            throw new AuthenticationException();
+            throw new UnknownAccountException();
         }
         // 判断账号是否正常
         if (sysUser.getState() == null || sysUser.getState().equals(UserStateEnum.PROHIBIT.getState())) {

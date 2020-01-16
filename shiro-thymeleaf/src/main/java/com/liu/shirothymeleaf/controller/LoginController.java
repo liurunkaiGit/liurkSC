@@ -11,6 +11,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @Description:
@@ -18,6 +19,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @Date: 2020/1/13 18:52
  */
 @Slf4j
+//也可以使用@RestController来代替@Controller，但是在返回字符串方法的上面需要指定返回的格式为纯文本格式，而不是json格式
+// eg：@GetMapping(value = "/toLogin", produces = "text/plain;charset=utf-8")
 @Controller
 @RequestMapping("/login")
 public class LoginController {
@@ -28,6 +31,8 @@ public class LoginController {
      * @return
      */
     @GetMapping("/toLogin")
+    // 当controller类上面使用@RestController注解而不是@Controller注解时，返回字符串格式需要指定produces
+//    @GetMapping(value = "/toLogin", produces = "text/plain;charset=utf-8")
     public String toLogin() {
         return "/login";
     }
