@@ -23,5 +23,5 @@ pagehelper:
 # 如果日志文件里面没有sql日志，需要添加如下配置
 #logging:
 #  level:
-#    com.ksyun.dc.quality.dao.mapper: DEBUG
+#    com.liu.mapper: DEBUG
 

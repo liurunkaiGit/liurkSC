@@ -3,7 +3,6 @@ server:
   servlet:
     context-path: /log4j
 
-#日志保存目录
 log:
-#  logdir: /data/log/dmg${server.servlet.context-path}
+#  logdir: /logs/aa${server.servlet.context-path}
   logdir: D:/logs/${server.servlet.context-path}
