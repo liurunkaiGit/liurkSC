@@ -1,15 +1,11 @@
 package com.liu.security.controller;
 
-import com.liu.security.service.SysUserService;
+import com.liu.security.service.impl.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @Description:
@@ -17,11 +13,10 @@ import org.springframework.web.bind.annotation.RestController;
  * @Date: 2020/1/15 18:43
  */
 @Controller
-@RequestMapping("/login")
 public class LoginController {
 
     @Autowired
-    private UserDetailsService userDetailsService;
+    private CustomUserDetailsService userDetailsService;
 
     /**
      * 跳转到用户登录页面：默认模板名以html结尾
@@ -44,6 +39,16 @@ public class LoginController {
     }
 
     /**
+     * 跳转到首页：默认模板名以html结尾
+     *
+     * @return
+     */
+    @PostMapping("/toIndexDefalut")
+    public String toIndexDefalut() {
+        return "/index";
+    }
+
+    /**
      * 跳转到未授权页面
      *
      * @return
@@ -51,6 +56,16 @@ public class LoginController {
     @GetMapping("/unauth")
     public String unauth() {
         return "/unauth";
+    }
+
+    /**
+     * 跳转到未授权页面
+     *
+     * @return
+     */
+    @PostMapping("/toError")
+    public String toError() {
+        return "/test";
     }
 
     /**
@@ -63,7 +78,7 @@ public class LoginController {
      */
     @PostMapping("/login")
     public String login(String userName, String password, ModelMap modelMap) {
-        UserDetails userDetails = this.userDetailsService.loadUserByUsername(userName);
-        return null;
+        this.userDetailsService.loadUserByUsername(userName);
+        return "/index";
     }
 }

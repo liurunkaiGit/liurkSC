@@ -28,7 +28,7 @@ import java.util.stream.Collectors;
 @AllArgsConstructor
 @Builder(toBuilder = true)
 @Accessors(chain = true)
-public class SysUser implements UserDetails, Serializable {
+public class SysUser implements Serializable {
 
     private static final long serialVersionUID = 1L;
     /**
@@ -44,37 +44,4 @@ public class SysUser implements UserDetails, Serializable {
      */
     private String password;
 
-    /**
-     * 角色集合
-     */
-    private Set<SysUserRole> roles;
-
-    @Override
-    public Collection<? extends GrantedAuthority> getAuthorities() {
-        Set<GrantedAuthority> grantedAuthoritySet = this.getRoles().stream()
-                .map(userRole -> new SimpleGrantedAuthority(userRole.getRoleId().toString()))
-                .collect(Collectors.toSet());
-        log.info("grantedAuthoritySet is {}", grantedAuthoritySet);
-        return grantedAuthoritySet;
-    }
-
-    @Override
-    public boolean isAccountNonExpired() {
-        return true;
-    }
-
-    @Override
-    public boolean isAccountNonLocked() {
-        return true;
-    }
-
-    @Override
-    public boolean isCredentialsNonExpired() {
-        return true;
-    }
-
-    @Override
-    public boolean isEnabled() {
-        return true;
-    }
 }

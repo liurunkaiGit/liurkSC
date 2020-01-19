@@ -6,8 +6,8 @@
 </head>
 <body>
 <h3></h3>
-<form method="post" action="/login/login">
-    用户名：<input type="text" name="userName"/>
+<form method="post" th:action="@{/login}">
+    用户名：<input type="text" name="username"/>
     密码：<input type="text" name="password"/>
     <input type="submit" value="登录"/>
 </form>

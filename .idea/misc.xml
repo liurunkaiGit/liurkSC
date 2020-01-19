@@ -19,6 +19,10 @@
         <option value="$PROJECT_DIR$/shiro/pom.xml" />
         <option value="$PROJECT_DIR$/shiro-thymeleaf/pom.xml" />
         <option value="$PROJECT_DIR$/spring-security/pom.xml" />
+        <option value="$PROJECT_DIR$/distributed-security/pom.xml" />
+        <option value="$PROJECT_DIR$/distributed-security-uaa/pom.xml" />
+        <option value="$PROJECT_DIR$/distributed-security-common/pom.xml" />
+        <option value="$PROJECT_DIR$/distributed-security-order/pom.xml" />
       </list>
     </option>
   </component>

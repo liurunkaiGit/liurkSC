@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.liu.security.mapper.SysUserMapper">
+
+    <select id="selectMenuByUserId" parameterType="java.lang.Long" resultType="com.liu.security.bean.SysMenu">
+        SELECT
+            sm.perms
+        FROM
+            sys_user su,
+            sys_user_role sur,
+            sys_role_menu srm,
+            sys_menu sm
+        WHERE
+            su.user_id = sur.user_id
+        AND sur.role_id = srm.role_id
+        AND srm.menu_id = sm.menu_id
+        AND su.user_id = #{userId}
+    </select>
+</mapper>

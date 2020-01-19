@@ -11,22 +11,30 @@
         <module name="dubbo-user-service-provider" />
         <module name="demo" />
         <module name="elk" />
-        <module name="dubbo-order-service-comsumer" />
+        <module name="distributed-security-order" />
         <module name="shiro" />
+        <module name="distributed-security" />
         <module name="spring-security" />
+        <module name="dynamic-more-schedule" />
+        <module name="distributed-security-uaa" />
         <module name="shiro-thymeleaf" />
+        <module name="distributed-security-common" />
         <module name="zookeeper" />
         <module name="log4j2" />
         <module name="slf4j" />
         <module name="microservice-simple-provider-user (1)" />
         <module name="dubbo-service-common" />
-        <module name="dynamic-more-schedule" />
+        <module name="dubbo-order-service-comsumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-client" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="demo" target="1.8" />
+      <module name="distributed-security" target="1.8" />
+      <module name="distributed-security-common" target="1.8" />
+      <module name="distributed-security-order" target="1.8" />
+      <module name="distributed-security-uaa" target="1.8" />
       <module name="dubbo-order-service-comsumer" target="1.8" />
       <module name="dubbo-service-common" target="1.8" />
       <module name="dubbo-user-service-provider" target="1.8" />
@@ -46,6 +54,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
+      <module name="distributed-security" options="-parameters" />
+      <module name="distributed-security-common" options="-parameters" />
+      <module name="distributed-security-order" options="-parameters" />
+      <module name="distributed-security-uaa" options="-parameters" />
       <module name="dubbo-order-service-comsumer" options="-parameters" />
       <module name="dubbo-service-common" options="-parameters" />
       <module name="dubbo-user-service-provider" options="-parameters" />
