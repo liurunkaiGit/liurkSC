@@ -1,0 +1,28 @@
+package com.liu.distributedSecurity.uaa.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.oauth2.provider.token.TokenStore;
+import org.springframework.security.oauth2.provider.token.store.InMemoryTokenStore;
+import org.springframework.stereotype.Component;
+
+/**
+ * @Description: 令牌配置类
+ * @author: liurunkai
+ * @Date: 2020/1/20 9:40
+ */
+@Configuration
+@Component
+public class TokenConfig {
+
+    /**
+     * 令牌存储策略
+     *
+     * @return
+     */
+    @Bean //相当于spring的xml文件，在想要使用的地方通过@Autowired注入
+    public TokenStore tokenStore() {
+        // 使用内存方式，生成普通令牌，还有JdbcTokenStore()和JwtTokenStore()
+        return new InMemoryTokenStore();
+    }
+}

@@ -1,7 +1,7 @@
 server:
-  port: 8081
+  port: 8082
   servlet:
-    context-path: /dsuaa
+    context-path: /dso
 
 spring:
   datasource:
@@ -11,7 +11,7 @@ spring:
     password: root
     type: com.alibaba.druid.pool.DruidDataSource
   application:
-    name: dsu
+    name: dso
 
 
 mybatis-plus:
