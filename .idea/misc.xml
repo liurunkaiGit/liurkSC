@@ -23,6 +23,7 @@
         <option value="$PROJECT_DIR$/distributed-security-uaa/pom.xml" />
         <option value="$PROJECT_DIR$/distributed-security-common/pom.xml" />
         <option value="$PROJECT_DIR$/distributed-security-order/pom.xml" />
+        <option value="$PROJECT_DIR$/datastructure/pom.xml" />
       </list>
     </option>
   </component>

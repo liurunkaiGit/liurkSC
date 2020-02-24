@@ -103,3 +103,36 @@ CREATE TABLE `sys_user_role` (
 -- ----------------------------
 INSERT INTO `sys_user_role` VALUES ('1', '1', '1');
 INSERT INTO `sys_user_role` VALUES ('2', '2', '2');
+
+-- ----------------------------
+-- Table structure for oauth_client_detail
+-- ----------------------------
+DROP TABLE IF EXISTS `oauth_client_detail`;
+CREATE TABLE `oauth_client_detail` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键id',
+  `client_id` varchar(255) DEFAULT '' COMMENT '客户端id',
+  `resource_ids` varchar(255) DEFAULT NULL COMMENT '接入资源列表',
+  `client_secret` varchar(255) DEFAULT NULL COMMENT '客户端秘钥',
+  `scope` varchar(255) DEFAULT NULL COMMENT '允许的授权范围，相当于客户端的权限',
+  `authorized_grant_types` varchar(255) DEFAULT NULL COMMENT 'oauth2支持的授权类型',
+  `web_server_redirect_uri` varchar(255) DEFAULT NULL COMMENT '客户端回调地址',
+  `authorities` varchar(255) DEFAULT NULL,
+  `access_token_validity` bigint(20) DEFAULT NULL,
+  `refresh_token_validity` bigint(20) DEFAULT NULL,
+  `additional_information` varchar(255) DEFAULT NULL,
+  `create_time` datetime DEFAULT NULL,
+  `archived` tinyint(4) DEFAULT NULL,
+  `trusted` tinyint(255) DEFAULT NULL,
+  `autoapprove` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT = '客户端信息表';
+
+-- ----------------------------
+-- Table structure for oauth_code
+-- ----------------------------
+DROP TABLE IF EXISTS `oauth_code`;
+CREATE TABLE `oauth_code` (
+  `code` varchar(255) DEFAULT NULL,
+  `authentication` blob,
+  `create_time` datetime DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT = '授权码表';

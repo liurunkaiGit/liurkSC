@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datastructure/datastructure.iml" filepath="$PROJECT_DIR$/datastructure/datastructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/zookeeper/demo.iml" filepath="$PROJECT_DIR$/zookeeper/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/distributed-security/distributed-security.iml" filepath="$PROJECT_DIR$/distributed-security/distributed-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/distributed-security-common/distributed-security-common.iml" filepath="$PROJECT_DIR$/distributed-security-common/distributed-security-common.iml" />

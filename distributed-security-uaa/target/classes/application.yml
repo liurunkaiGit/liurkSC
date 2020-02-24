@@ -11,7 +11,7 @@ spring:
     password: root
     type: com.alibaba.druid.pool.DruidDataSource
   application:
-    name: dsu
+    name: dsuaa
 
 
 mybatis-plus:

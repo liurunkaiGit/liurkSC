@@ -5,86 +5,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d19c5857-920a-4dfa-82fb-e49e02a9041e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_unknown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/bean/SysMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/bean/SysRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/bean/SysRoleMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/bean/SysUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/bean/SysUserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/config/AuthorizationServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/config/TokenConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/controller/MenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/mapper/SysMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/mapper/SysRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/mapper/SysRoleMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/mapper/SysUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/mapper/SysUserRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/SysMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/SysRoleMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/SysRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/SysUserRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/SysUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/impl/CustomUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/impl/SysMenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/impl/SysRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/impl/SysUserRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/utils/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/utils/SecurityUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/resources/mapper/User.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/UaaApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/bean/SysMenu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/bean/SysRole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/bean/SysRoleMenu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/bean/SysUser$SysUserBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/bean/SysUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/bean/SysUserRole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/config/AuthorizationServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/config/TokenConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/config/WebSecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/controller/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/controller/MenuController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/controller/RoleController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/mapper/SysMenuMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/mapper/SysRoleMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/mapper/SysRoleMenuMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/mapper/SysUserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/mapper/SysUserRoleMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/service/SysMenuService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/service/SysRoleMenuService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/service/SysRoleService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/service/SysUserRoleService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/service/SysUserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/service/impl/CustomUserDetailsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/service/impl/SysMenuServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/service/impl/SysRoleMenuServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/service/impl/SysRoleServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/service/impl/SysUserRoleServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/service/impl/SysUserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/utils/SecurityUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/security/utils/Response.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/security/utils/ResponseEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/mapper/User.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/hashTable/HashTableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/linkedList/DoubleLinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/linkedList/SingleCircleLinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/linkedList/SingleLinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/queue/ArrayQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/queue/CircleArrayQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/recursion/EightKing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/recursion/MiGong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/recursion/RecursionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/search/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/search/FibSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/search/InsertValueSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/search/SeqSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/RadixSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/SelectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sparseArray/SparseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/stack/ArrayStackDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/stack/CalculatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/stack/PolandNotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/stack/StackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/ArrayBinaryTreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/BinaryTreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/ThreadedBinaryTreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/huffmanCode/HuffmanCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/huffmanTree/HuffmanTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/liu/distributedSecurity/order/config/OrderServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/liu/distributedSecurity/order/config/TokenConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/liu/distributedSecurity/order/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/distributed-security-uaa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/distributed-security-uaa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/UaaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/UaaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-order/distributed-security-order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/distributed-security-order.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-order/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/config/AuthorizationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/config/AuthorizationServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/config/TokenConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/config/TokenConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/distributed-security-uaa/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security/src/main/java/com/liu/distributedsecurity/DistributedSecurityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security/src/main/java/com/liu/distributedsecurity/DistributedSecurityApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security/src/test/java/com/liu/distributedsecurity/DistributedSecurityApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security/src/test/java/com/liu/distributedsecurity/DistributedSecurityApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/config/AuthorizationServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/config/AuthorizationServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/config/TokenConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/config/TokenConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/learnDoc/Java面试题库.docx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/learnDoc/Java面试题库.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/learnDoc/springSecurity-oauth2.0.docx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/learnDoc/springSecurity-oauth2.0.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/src/test/java/com/liu/security/BCryptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security/src/test/java/com/liu/security/BCryptTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security/system.sql" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security/system.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/flyway/target/" />
     <ignored path="$PROJECT_DIR$/docs/target/" />
@@ -108,11 +91,15 @@
     <ignored path="$PROJECT_DIR$/distributed-security-uaa/target/" />
     <ignored path="$PROJECT_DIR$/distributed-security-common/target/" />
     <ignored path="$PROJECT_DIR$/distributed-security-order/target/" />
+    <ignored path="$PROJECT_DIR$/datastructure/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="190" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -134,62 +121,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/distributed-security-uaa/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="127" column="21" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/UaaApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/huffmanTree/HuffmanTree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/config/WebSecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
-              <folding>
-                <element signature="e#1964#1965#0" expanded="true" />
-                <element signature="e#2014#2015#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/controller/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-990">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/config/AuthorizationServer.java">
+        <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/huffmanCode/HuffmanCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="84" column="86" selection-start-line="84" selection-start-column="68" selection-end-line="84" selection-end-column="86" />
+            <state relative-caret-position="2984">
+              <caret line="168" column="32" lean-forward="true" selection-start-line="168" selection-start-column="32" selection-end-line="168" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -212,8 +156,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>url</find>
-      <find>FLATMA</find>
       <find>post</find>
       <find>new User()</find>
       <find>ids is</find>
@@ -236,12 +178,14 @@
       <find>userLogin</find>
       <find>mybatis</find>
       <find>dru</find>
-      <find>mysql</find>
       <find>ext</find>
       <find>error</find>
       <find>com.ks</find>
       <find>ser</find>
       <find>web</find>
+      <find>mysql</find>
+      <find>api</find>
+      <find>clientDetailsService</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -253,57 +197,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-security/src/main/java/com/liu/security/service/SysUserService.java" />
-        <option value="$PROJECT_DIR$/spring-security/src/main/java/com/liu/security/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/spring-security/src/main/java/com/liu/security/mapper/SysUserMapper.java" />
-        <option value="$PROJECT_DIR$/spring-security/src/main/resources/mapper/User.xml" />
-        <option value="$PROJECT_DIR$/spring-security/src/main/java/com/liu/security/service/impl/CustomUserDetailsService.java" />
-        <option value="$PROJECT_DIR$/spring-security/src/main/java/com/liu/security/service/impl/SysMenuServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spring-security/src/main/java/com/liu/security/service/impl/SysRoleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spring-security/src/main/java/com/liu/security/service/impl/SysRoleMenuServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spring-security/src/main/java/com/liu/security/service/impl/SysUserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spring-security/src/main/java/com/liu/security/utils/SecurityUtil.java" />
-        <option value="$PROJECT_DIR$/spring-security/src/main/java/com/liu/security/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/spring-security/src/main/java/com/liu/security/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/distributed-security-order/pom.xml" />
-        <option value="$PROJECT_DIR$/distributed-security-order/src/main/java/com/liu/distributedSecurity/order/OrderApplication.java" />
-        <option value="$PROJECT_DIR$/distributed-security-order/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/distributed-security/pom.xml" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/config/TokenConfig.java" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/config/AuthorizationServer.java" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/bean/SysMenu.java" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/bean/SysRole.java" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/bean/SysRoleMenu.java" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/bean/SysUser.java" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/bean/SysUserRole.java" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/controller/RoleController.java" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/mapper/SysMenuMapper.java" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/mapper/SysRoleMapper.java" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/mapper/SysRoleMenuMapper.java" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/mapper/SysUserMapper.java" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/mapper/SysUserRoleMapper.java" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/SysUserService.java" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/SysUserRoleService.java" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/SysRoleMenuService.java" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/SysMenuService.java" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/SysRoleService.java" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/impl/SysMenuServiceImpl.java" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/impl/CustomUserDetailsService.java" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/impl/SysRoleMenuServiceImpl.java" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/impl/SysRoleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/impl/SysUserRoleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/impl/SysUserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/resources/mapper/User.xml" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/controller/MenuController.java" />
         <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/utils/SecurityUtil.java" />
         <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/controller/UserController.java" />
         <option value="$PROJECT_DIR$/distributed-security/src/main/java/com/liu/distributedsecurity/DistributedSecurityApplication.java" />
         <option value="$PROJECT_DIR$/distributed-security/src/test/java/com/liu/distributedsecurity/DistributedSecurityApplicationTests.java" />
         <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/UaaApplication.java" />
         <option value="$PROJECT_DIR$/distributed-security-uaa/pom.xml" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/distributed-security-order/src/main/java/com/liu/distributedSecurity/order/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/distributed-security-order/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/distributed-security-order/pom.xml" />
+        <option value="$PROJECT_DIR$/distributed-security-order/src/main/java/com/liu/distributedSecurity/order/config/TokenConfig.java" />
+        <option value="$PROJECT_DIR$/distributed-security-order/src/main/java/com/liu/distributedSecurity/order/config/OrderServerConfig.java" />
+        <option value="$PROJECT_DIR$/spring-security/system.sql" />
+        <option value="$PROJECT_DIR$/spring-security/src/test/java/com/liu/security/BCryptTest.java" />
+        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/config/TokenConfig.java" />
+        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/config/AuthorizationServer.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sparseArray/SparseArray.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/queue/CircleArrayQueueDemo.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/queue/ArrayQueueDemo.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/linkedList/SingleLinkedList.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/stack/StackTest.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/linkedList/SingleLinkedListDemo.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/linkedList/DoubleLinkedListDemo.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/linkedList/SingleCircleLinkedListDemo.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/stack/ArrayStackDemo.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/stack/Calculator.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/stack/CalculatorDemo.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/stack/PolandNotation.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/recursion/RecursionTest.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/recursion/MiGong.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/recursion/EightKing.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/SelectSort.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/InsertSort.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/ShellSort.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/MergeSort.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/RadixSort.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/search/SeqSearch.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/search/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/search/InsertValueSearch.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/search/FibSearch.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/hashTable/HashTableDemo.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/BinaryTreeDemo.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/ArrayBinaryTree.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/ArrayBinaryTreeDemo.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/ThreadedBinaryTreeDemo.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/HeapSort.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/huffmanTree/HuffmanTree.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/huffmanCode/HuffmanCode.java" />
       </list>
     </option>
   </component>
@@ -329,11 +273,11 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-6" />
+    <option name="y" value="1" />
+    <option name="width" value="1378" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -343,6 +287,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -353,77 +299,63 @@
             <path>
               <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
               <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
-              <item name="distributed-security-uaa" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
               <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
-              <item name="distributed-security-uaa" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
               <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
-              <item name="distributed-security-uaa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
-              <item name="distributed-security-uaa" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
               <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
-              <item name="distributed-security-uaa" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="uaa" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
               <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
-              <item name="distributed-security-uaa" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="uaa" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
               <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
-              <item name="distributed-security-uaa" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="uaa" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
               <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
-              <item name="distributed-security-uaa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
               <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-security" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="learnDoc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -438,7 +370,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/learnDoc" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -455,26 +387,26 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.liu.sc.controller" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.liu.distributedSecurity.uaa.config" />
-      <recent name="com.liu.security.service.impl" />
-      <recent name="com.liu.shirothymeleaf.service.impl" />
-      <recent name="com.liu.security.bean" />
-      <recent name="com.liu.shirothymeleaf.bean" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ideaWorkspace\liurkSC\distributed-security-uaa\src\main\resources" />
-      <recent name="D:\ideaWorkspace\liurkSC\shiro" />
-      <recent name="D:\ideaWorkspace\liurkSC\shiro-thymeleaf" />
-      <recent name="D:\ideaWorkspace\liurkSC\spring-security" />
-      <recent name="D:\ideaWorkspace\liurkSC\spring-security\src\main\resources\mapper" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\book\ideaWorkSpace\gitSc\liurkSC" />
+      <recent name="D:\book\ideaWorkSpace\gitSc\liurkSC\dubbo-springBoot" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\book\ideaWorkSpace\gitSc\liurkSC" />
-      <recent name="D:\book\ideaWorkSpace\gitSc\liurkSC\dubbo-springBoot" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.liu.distributedSecurity.order.config" />
+      <recent name="com.liu.distributedSecurity.order.controller" />
+      <recent name="com.liu.distributedSecurity.uaa.config" />
+      <recent name="com.liu.security.service.impl" />
+      <recent name="com.liu.shirothymeleaf.service.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaWorkspace\liurkSC\datastructure\src\main\java\com\liu\datastructure\linkedList" />
+      <recent name="D:\ideaWorkspace\liurkSC\distributed-security-uaa\src\main\resources" />
+      <recent name="D:\ideaWorkspace\liurkSC\shiro" />
+      <recent name="D:\ideaWorkspace\liurkSC\shiro-thymeleaf" />
+      <recent name="D:\ideaWorkspace\liurkSC\spring-security" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -489,13 +421,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UaaApplication">
-    <configuration name="SHA256Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.shiro.utils.sha256.SHA256Util" />
-      <module name="shiro" />
+  <component name="RunManager" selected="Application.HuffmanCode">
+    <configuration name="ArrayBinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.datastructure.tree.ArrayBinaryTreeDemo" />
+      <module name="datastructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liu.shiro.utils.sha256.*" />
+          <option name="PATTERN" value="com.liu.datastructure.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -503,33 +435,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BCryptTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-security" />
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.datastructure.sort.HeapSort" />
+      <module name="datastructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liu.security.*" />
+          <option name="PATTERN" value="com.liu.datastructure.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.liu.security" />
-      <option name="MAIN_CLASS_NAME" value="com.liu.security.BCryptTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BCryptTest.testBCrypt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-security" />
+    <configuration name="HuffmanCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.datastructure.tree.huffmanCode.HuffmanCode" />
+      <module name="datastructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liu.security.*" />
+          <option name="PATTERN" value="com.liu.datastructure.tree.huffmanCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.liu.security" />
-      <option name="MAIN_CLASS_NAME" value="com.liu.security.BCryptTest" />
-      <option name="METHOD_NAME" value="testBCrypt" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HuffmanTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.datastructure.tree.huffmanTree.HuffmanTree" />
+      <module name="datastructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liu.datastructure.tree.huffmanTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadedBinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.datastructure.tree.ThreadedBinaryTreeDemo" />
+      <module name="datastructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liu.datastructure.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -544,6 +497,13 @@
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.liu.sc.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatastructureApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="datastructure" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.liu.datastructure.DatastructureApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -618,32 +578,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShiroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="shiro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liu.shiro.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.liu.shiro.ShiroApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShiroThymeleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="shiro-thymeleaf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liu.shirothymeleaf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.liu.shirothymeleaf.ShiroThymeleafApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Slf4jApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="slf4j" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.liu.log.Slf4jApplication" />
@@ -673,8 +607,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SHA256Util" />
-      <item itemvalue="JUnit.BCryptTest.testBCrypt" />
+      <item itemvalue="Application.ArrayBinaryTreeDemo" />
+      <item itemvalue="Application.ThreadedBinaryTreeDemo" />
+      <item itemvalue="Application.HeapSort" />
+      <item itemvalue="Application.HuffmanTree" />
+      <item itemvalue="Application.HuffmanCode" />
       <item itemvalue="Spring Boot.ConfigClientApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.DynamicMoreScheduleApplication" />
@@ -691,17 +628,15 @@
       <item itemvalue="Spring Boot.DistributedSecurityApplication" />
       <item itemvalue="Spring Boot.UaaApplication" />
       <item itemvalue="Spring Boot.OrderApplication" />
-      <item itemvalue="Spring Boot.ShiroApplication" />
-      <item itemvalue="Spring Boot.ShiroThymeleafApplication" />
-      <item itemvalue="JUnit.BCryptTest" />
+      <item itemvalue="Spring Boot.DatastructureApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BCryptTest" />
-        <item itemvalue="JUnit.BCryptTest.testBCrypt" />
-        <item itemvalue="Spring Boot.ShiroThymeleafApplication" />
-        <item itemvalue="Application.SHA256Util" />
-        <item itemvalue="Spring Boot.ShiroApplication" />
+        <item itemvalue="Application.HuffmanCode" />
+        <item itemvalue="Application.HuffmanTree" />
+        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.ThreadedBinaryTreeDemo" />
+        <item itemvalue="Application.ArrayBinaryTreeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -780,7 +715,24 @@
       <workItem from="1579138745143" duration="13425000" />
       <workItem from="1579224850587" duration="16999000" />
       <workItem from="1579423426931" duration="6773000" />
-      <workItem from="1579482020436" duration="17495000" />
+      <workItem from="1579482020436" duration="17784000" />
+      <workItem from="1579655990646" duration="4534000" />
+      <workItem from="1579661507449" duration="8297000" />
+      <workItem from="1580713738603" duration="1346000" />
+      <workItem from="1581325078377" duration="7813000" />
+      <workItem from="1581411405639" duration="5027000" />
+      <workItem from="1581474373005" duration="16923000" />
+      <workItem from="1581562194165" duration="6017000" />
+      <workItem from="1581647472458" duration="12945000" />
+      <workItem from="1581732154376" duration="6320000" />
+      <workItem from="1581904078827" duration="11634000" />
+      <workItem from="1581989585159" duration="4611000" />
+      <workItem from="1582007374121" duration="6242000" />
+      <workItem from="1582077451951" duration="8529000" />
+      <workItem from="1582162381528" duration="10858000" />
+      <workItem from="1582249373226" duration="6161000" />
+      <workItem from="1582339167989" duration="13214000" />
+      <workItem from="1582426546781" duration="11240000" />
     </task>
     <task id="LOCAL-00001" summary="新增初始化数据sql">
       <created>1558671577212</created>
@@ -1080,9 +1032,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Slf4jApplicationTests_contextLoads - 2019.09.25 at 21h 21m 36s.xml">
-      <configuration name="Slf4jApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Slf4jApplicationTests_contextLoads - 2019.09.25 at 21h 23m 33s.xml">
       <configuration name="Slf4jApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
@@ -1110,9 +1059,12 @@
     <history-entry file="BCryptTest - 2020.01.20 at 14h 30m 30s.xml">
       <configuration name="BCryptTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BCryptTest_testBCrypt - 2020.01.22 at 14h 44m 16s.xml">
+      <configuration name="BCryptTest.testBCrypt" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="518267000" />
+    <option name="totallyTimeSpent" value="660267000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1125,9 +1077,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27382752" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30030257" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1141,16 +1092,16 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.36557376" />
-      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49924356" weight="0.44262296" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.33114755" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3295082" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.3295082" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49924356" weight="0.44918033" />
-      <window_info anchor="bottom" id="Spring" order="13" weight="0.3295082" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Terminal" order="15" weight="0.39016393" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.49924356" weight="0.38196722" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.3295082" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.39016393" />
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.50075644" side_tool="true" weight="0.44262296" />
       <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.50075644" side_tool="true" weight="0.23442623" />
       <window_info anchor="bottom" id="JRebel Console" order="17" side_tool="true" />
       <window_info anchor="right" id="Bean Validation" order="0" />
@@ -1165,9 +1116,10 @@
       <window_info anchor="right" id="Maven" order="9" weight="0.32829046" />
       <window_info anchor="right" id="Mybatis datasource" order="10" side_tool="true" />
       <window_info anchor="right" id="JRebel Setup Guide" order="11" weight="0.32980332" />
+      <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.32980332" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27382752" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.30030257" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1181,16 +1133,16 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.36557376" />
-      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49924356" visible="true" weight="0.44262296" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3295082" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.3295082" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49924356" weight="0.44918033" />
-      <window_info anchor="bottom" id="Spring" order="13" weight="0.3295082" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Terminal" order="15" weight="0.39016393" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.49924356" weight="0.38196722" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.3295082" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.39016393" />
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.50075644" side_tool="true" weight="0.44262296" />
       <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.50075644" side_tool="true" weight="0.23442623" />
       <window_info anchor="bottom" id="JRebel Console" order="17" side_tool="true" />
       <window_info anchor="right" id="Bean Validation" order="0" />
@@ -1205,6 +1157,7 @@
       <window_info anchor="right" id="Maven" order="9" weight="0.32829046" />
       <window_info anchor="right" id="Mybatis datasource" order="10" side_tool="true" />
       <window_info anchor="right" id="JRebel Setup Guide" order="11" weight="0.32980332" />
+      <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.32980332" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1314,72 +1267,160 @@
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/controller/LoginController.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/search/BinarySearch.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/huffmanCode/HuffmanCode.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/huffmanCode/HuffmanCode.java</url>
+          <line>189</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/huffmanCode/HuffmanCode.java</url>
+          <line>193</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/huffmanCode/HuffmanCode.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/liurkSC$CalculatorDemo.ic" NAME="CalculatorDemo Coverage Results" MODIFIED="1581652651937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.liu.datastructure.stack.*</FILTER>
+    </SUITE>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>ShiroUtil</expression-string>
+        <expression-string>this.getLeft().getId()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>array[i]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bucket[j][l]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>array[left]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>array[right]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>expression.substring(i, i + 1).charAt(0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>expression.substring(i, i + 1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>c</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>numStack.push(c)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shiro-thymeleaf/system.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security/src/main/java/com/liu/security/utils/SecurityUtil.java">
+    <entry file="file://$PROJECT_DIR$/distributed-security/src/test/java/com/liu/distributedsecurity/DistributedSecurityApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        <state relative-caret-position="125">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="43" column="21" selection-start-line="29" selection-start-column="8" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/UaaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security/src/main/java/com/liu/security/service/impl/CustomUserDetailsService.java">
+    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="3075">
+          <caret line="123" column="8" selection-start-line="123" selection-start-column="8" selection-end-line="127" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-security-order/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-security-order/src/main/java/com/liu/distributedSecurity/order/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="42" column="52" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="52" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security/src/main/java/com/liu/security/mapper/SysUserMapper.java">
+    <entry file="file://$PROJECT_DIR$/distributed-security-order/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security/src/main/resources/mapper/User.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro/system.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="55" lean-forward="true" selection-end-line="16" />
+        <state relative-caret-position="3075">
+          <caret line="123" column="21" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1395,337 +1436,339 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-order/pom.xml">
+    <entry file="file://$PROJECT_DIR$/distributed-security-order/src/main/java/com/liu/distributedSecurity/order/config/OrderServerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="107" column="10" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.6.RELEASE/spring-security-oauth2-2.3.6.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configuration/AuthorizationServerConfigurerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="18" column="56" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/config/TokenConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        <state relative-caret-position="-224">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-order/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/spring-security/system.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="358">
+          <caret line="137" column="54" selection-start-line="137" selection-start-column="54" selection-end-line="137" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/bean/SysMenu.java">
+    <entry file="file://$PROJECT_DIR$/distributed-security-order/src/main/java/com/liu/distributedSecurity/order/config/TokenConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/bean/SysRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/bean/SysRoleMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/bean/SysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/bean/SysUserRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/controller/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/mapper/SysMenuMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/mapper/SysRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/mapper/SysRoleMenuMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/mapper/SysUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/mapper/SysUserRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/SysUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/SysUserRoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/SysRoleMenuService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/SysMenuService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/SysRoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/impl/SysMenuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/impl/CustomUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/impl/SysRoleMenuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="14" column="101" selection-start-line="14" selection-start-column="101" selection-end-line="14" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/impl/SysRoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/impl/SysUserRoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/service/impl/SysUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/resources/mapper/User.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="110" selection-start-line="6" selection-start-column="110" selection-end-line="6" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/controller/MenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1165">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/utils/SecurityUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="38" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security/src/main/java/com/liu/distributedsecurity/DistributedSecurityApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="427.0" y="355.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Inner Classes</Category>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-            <Category>Constructors</Category>
-            <Category>Fields</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security/src/test/java/com/liu/distributedsecurity/DistributedSecurityApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="275">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-security/src/test/java/com/liu/security/BCryptTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="319">
+          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.6.RELEASE/spring-security-oauth2-2.3.6.RELEASE.jar!/org/springframework/security/oauth2/provider/ClientDetailsService.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="43" column="21" selection-start-line="29" selection-start-column="8" selection-end-line="43" selection-end-column="21" />
+        <state relative-caret-position="100">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/UaaApplication.java">
+    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/config/AuthorizationServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="1750">
+          <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/pom.xml">
+    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/config/TokenConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="127" column="21" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-990">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="700">
+          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/config/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+        <state relative-caret-position="2200">
+          <caret line="98" column="50" selection-start-line="98" selection-start-column="50" selection-end-line="99" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sparseArray/SparseArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1225">
+          <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/queue/CircleArrayQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/queue/ArrayQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="98" column="43" selection-start-line="98" selection-start-column="43" selection-end-line="98" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/linkedList/SingleLinkedListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6650">
+          <caret line="266" column="36" selection-start-line="266" selection-start-column="36" selection-end-line="266" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/linkedList/DoubleLinkedListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2275">
+          <caret line="91" column="24" selection-start-line="91" selection-start-column="24" selection-end-line="94" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/linkedList/SingleCircleLinkedListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/stack/ArrayStackDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="69" column="1" lean-forward="true" selection-start-line="22" selection-end-line="69" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/stack/StackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/stack/CalculatorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3025">
+          <caret line="129" column="4" selection-start-line="129" selection-start-column="4" selection-end-line="138" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/stack/PolandNotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
           <folding>
-            <element signature="e#1964#1965#0" expanded="true" />
-            <element signature="e#2014#2015#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/recursion/RecursionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        <state relative-caret-position="475">
+          <caret line="19" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/config/AuthorizationServer.java">
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/recursion/MiGong.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="84" column="86" selection-start-line="84" selection-start-column="68" selection-end-line="84" selection-end-column="86" />
+        <state relative-caret-position="1075">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/recursion/EightKing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="65" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/SelectSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="41" selection-start-line="11" selection-start-column="8" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/InsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/ShellSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1250">
+          <caret line="50" column="15" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="85" column="5" selection-start-line="10" selection-start-column="4" selection-end-line="85" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/RadixSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="44" column="9" selection-start-line="11" selection-start-column="8" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/search/SeqSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/search/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="32" column="88" lean-forward="true" selection-start-line="32" selection-start-column="88" selection-end-line="32" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="733" column="16" selection-start-line="733" selection-start-column="16" selection-end-line="733" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/search/FibSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/search/InsertValueSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="26" column="96" selection-start-line="26" selection-start-column="96" selection-end-line="26" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="257" column="40" selection-start-line="257" selection-start-column="26" selection-end-line="257" selection-end-column="40" />
+          <folding>
+            <element signature="e#6252#6253#0" expanded="true" />
+            <element signature="e#6320#6321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/hashTable/HashTableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/BinaryTreeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="e#6093#6094#0" expanded="true" />
+            <element signature="e#6118#6119#0" expanded="true" />
+            <element signature="e#6155#6156#0" expanded="true" />
+            <element signature="e#6183#6184#0" expanded="true" />
+            <element signature="e#6214#6215#0" expanded="true" />
+            <element signature="e#6241#6242#0" expanded="true" />
+            <element signature="e#6281#6282#0" expanded="true" />
+            <element signature="e#6313#6314#0" expanded="true" />
+            <element signature="e#6346#6347#0" expanded="true" />
+            <element signature="e#6373#6374#0" expanded="true" />
+            <element signature="e#6415#6416#0" expanded="true" />
+            <element signature="e#6447#6448#0" expanded="true" />
+            <element signature="e#6481#6482#0" expanded="true" />
+            <element signature="e#6509#6510#0" expanded="true" />
+            <element signature="e#6553#6554#0" expanded="true" />
+            <element signature="e#6587#6588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/ArrayBinaryTreeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/ThreadedBinaryTreeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="64" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="64" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/huffmanTree/HuffmanTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/huffmanCode/HuffmanCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2984">
+          <caret line="168" column="32" lean-forward="true" selection-start-line="168" selection-start-column="32" selection-end-line="168" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
