@@ -5,69 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d19c5857-920a-4dfa-82fb-e49e02a9041e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/hashTable/HashTableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/linkedList/DoubleLinkedListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/linkedList/SingleCircleLinkedListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/linkedList/SingleLinkedListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/queue/ArrayQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/queue/CircleArrayQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/recursion/EightKing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/recursion/MiGong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/recursion/RecursionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/search/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/search/FibSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/search/InsertValueSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/search/SeqSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/InsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/RadixSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/SelectSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/ShellSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sparseArray/SparseArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/stack/ArrayStackDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/stack/CalculatorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/stack/PolandNotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/stack/StackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/ArrayBinaryTreeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/BinaryTreeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/ThreadedBinaryTreeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/huffmanCode/HuffmanCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/huffmanTree/HuffmanTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/liu/distributedSecurity/order/config/OrderServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/liu/distributedSecurity/order/config/TokenConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/liu/distributedSecurity/order/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/BinarySortTreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/avl/AVLTreeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-order/distributed-security-order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/distributed-security-order.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-order/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/config/AuthorizationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/config/AuthorizationServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/config/TokenConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/config/TokenConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/config/AuthorizationServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/config/AuthorizationServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/config/TokenConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/liu/distributedSecurity/uaa/config/TokenConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/learnDoc/Java面试题库.docx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/learnDoc/Java面试题库.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/learnDoc/springSecurity-oauth2.0.docx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/learnDoc/springSecurity-oauth2.0.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security/src/test/java/com/liu/security/BCryptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security/src/test/java/com/liu/security/BCryptTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security/system.sql" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security/system.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/learnDoc/数据结构与算法.docx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/learnDoc/数据结构与算法.docx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/flyway/target/" />
     <ignored path="$PROJECT_DIR$/docs/target/" />
@@ -119,23 +60,54 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/huffmanTree/HuffmanTree.java">
+        <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/ThreadedBinaryTreeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+            <state relative-caret-position="1025">
+              <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/BinarySortTreeDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="16" column="45" selection-start-line="11" selection-start-column="8" selection-end-line="16" selection-end-column="45" />
+              <folding>
+                <element signature="e#1246#1247#0" expanded="true" />
+                <element signature="e#1265#1266#0" expanded="true" />
+                <element signature="e#884#885#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
+                <element signature="e#5954#5955#0" expanded="true" />
+                <element signature="e#6031#6032#0" expanded="true" />
+                <element signature="e#6087#6088#0" expanded="true" />
+                <element signature="e#6157#6158#0" expanded="true" />
+                <element signature="e#6215#6216#0" expanded="true" />
+                <element signature="e#6289#6290#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/huffmanCode/HuffmanCode.java">
+        <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/avl/AVLTreeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2984">
-              <caret line="168" column="32" lean-forward="true" selection-start-line="168" selection-start-column="32" selection-end-line="168" selection-end-column="32" />
+            <state relative-caret-position="225">
+              <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#987#988#0" expanded="true" />
+                <element signature="e#1014#1015#0" expanded="true" />
+                <element signature="e#1052#1053#0" expanded="true" />
+                <element signature="e#1084#1085#0" expanded="true" />
+                <element signature="e#4463#4464#0" expanded="true" />
+                <element signature="e#4657#4658#0" expanded="true" />
+                <element signature="e#4734#4735#0" expanded="true" />
+                <element signature="e#4790#4791#0" expanded="true" />
+                <element signature="e#4860#4861#0" expanded="true" />
+                <element signature="e#4918#4919#0" expanded="true" />
+                <element signature="e#4992#4993#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -197,10 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/utils/SecurityUtil.java" />
-        <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/distributed-security/src/main/java/com/liu/distributedsecurity/DistributedSecurityApplication.java" />
-        <option value="$PROJECT_DIR$/distributed-security/src/test/java/com/liu/distributedsecurity/DistributedSecurityApplicationTests.java" />
         <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/UaaApplication.java" />
         <option value="$PROJECT_DIR$/distributed-security-uaa/pom.xml" />
         <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/config/WebSecurityConfig.java" />
@@ -248,6 +216,10 @@
         <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/HeapSort.java" />
         <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/huffmanTree/HuffmanTree.java" />
         <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/huffmanCode/HuffmanCode.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/BinarySortTree.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/BinarySortTreeDemo.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/AVLTreeDemo.java" />
+        <option value="$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/avl/AVLTreeDemo.java" />
       </list>
     </option>
   </component>
@@ -273,7 +245,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-6" />
     <option name="y" value="1" />
     <option name="width" value="1378" />
@@ -344,13 +316,13 @@
             <path>
               <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
               <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liurkSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liurkSC" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="learnDoc" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="avl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -370,7 +342,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/learnDoc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -387,13 +359,6 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.liu.sc.controller" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\book\ideaWorkSpace\gitSc\liurkSC" />
-      <recent name="D:\book\ideaWorkSpace\gitSc\liurkSC\dubbo-springBoot" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.liu.distributedSecurity.order.config" />
       <recent name="com.liu.distributedSecurity.order.controller" />
@@ -402,11 +367,18 @@
       <recent name="com.liu.shirothymeleaf.service.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaWorkspace\liurkSC\docs\learnDoc" />
       <recent name="D:\ideaWorkspace\liurkSC\datastructure\src\main\java\com\liu\datastructure\linkedList" />
       <recent name="D:\ideaWorkspace\liurkSC\distributed-security-uaa\src\main\resources" />
       <recent name="D:\ideaWorkspace\liurkSC\shiro" />
       <recent name="D:\ideaWorkspace\liurkSC\shiro-thymeleaf" />
-      <recent name="D:\ideaWorkspace\liurkSC\spring-security" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\book\ideaWorkSpace\gitSc\liurkSC" />
+      <recent name="D:\book\ideaWorkSpace\gitSc\liurkSC\dubbo-springBoot" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -421,13 +393,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HuffmanCode">
-    <configuration name="ArrayBinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.datastructure.tree.ArrayBinaryTreeDemo" />
+  <component name="RunManager" selected="Application.AVLTreeDemo">
+    <configuration name="AVLTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.datastructure.tree.avl.AVLTreeDemo" />
       <module name="datastructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liu.datastructure.tree.*" />
+          <option name="PATTERN" value="com.liu.datastructure.tree.avl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySortTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liu.datastructure.tree.BinarySortTreeDemo" />
+      <module name="datastructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liu.datastructure.tree.avl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -467,19 +452,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.liu.datastructure.tree.huffmanTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadedBinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liu.datastructure.tree.ThreadedBinaryTreeDemo" />
-      <module name="datastructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liu.datastructure.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -607,11 +579,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ArrayBinaryTreeDemo" />
-      <item itemvalue="Application.ThreadedBinaryTreeDemo" />
       <item itemvalue="Application.HeapSort" />
       <item itemvalue="Application.HuffmanTree" />
       <item itemvalue="Application.HuffmanCode" />
+      <item itemvalue="Application.BinarySortTreeDemo" />
+      <item itemvalue="Application.AVLTreeDemo" />
       <item itemvalue="Spring Boot.ConfigClientApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.DynamicMoreScheduleApplication" />
@@ -632,11 +604,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AVLTreeDemo" />
+        <item itemvalue="Application.BinarySortTreeDemo" />
         <item itemvalue="Application.HuffmanCode" />
         <item itemvalue="Application.HuffmanTree" />
         <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.ThreadedBinaryTreeDemo" />
-        <item itemvalue="Application.ArrayBinaryTreeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -733,6 +705,9 @@
       <workItem from="1582249373226" duration="6161000" />
       <workItem from="1582339167989" duration="13214000" />
       <workItem from="1582426546781" duration="11240000" />
+      <workItem from="1582506776310" duration="276000" />
+      <workItem from="1582888735206" duration="191000" />
+      <workItem from="1582888952311" duration="15985000" />
     </task>
     <task id="LOCAL-00001" summary="新增初始化数据sql">
       <created>1558671577212</created>
@@ -1064,7 +1039,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="660267000" />
+    <option name="totallyTimeSpent" value="676719000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1078,7 +1053,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30030257" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.31316188" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1119,7 +1094,7 @@
       <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.32980332" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.30030257" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.31316188" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1133,7 +1108,7 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.33114755" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3295082" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -1303,6 +1278,24 @@
           <properties />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/BinarySortTreeDemo.java</url>
+          <line>112</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/BinarySortTreeDemo.java</url>
+          <line>135</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/avl/AVLTreeDemo.java</url>
+          <line>142</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1361,20 +1354,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/distributed-security/src/test/java/com/liu/distributedsecurity/DistributedSecurityApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="43" column="21" selection-start-line="29" selection-start-column="8" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/liu/distributedSecurity/uaa/UaaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -1744,13 +1723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/ThreadedBinaryTreeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/sort/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -1767,10 +1739,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/huffmanCode/HuffmanCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2984">
-          <caret line="168" column="32" lean-forward="true" selection-start-line="168" selection-start-column="32" selection-end-line="168" selection-end-column="32" />
+        <state relative-caret-position="511">
+          <caret line="168" column="32" selection-start-line="168" selection-start-column="32" selection-end-line="168" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/ThreadedBinaryTreeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/BinarySortTreeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="16" column="45" selection-start-line="11" selection-start-column="8" selection-end-line="16" selection-end-column="45" />
+          <folding>
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1265#1266#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#5954#5955#0" expanded="true" />
+            <element signature="e#6031#6032#0" expanded="true" />
+            <element signature="e#6087#6088#0" expanded="true" />
+            <element signature="e#6157#6158#0" expanded="true" />
+            <element signature="e#6215#6216#0" expanded="true" />
+            <element signature="e#6289#6290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/com/liu/datastructure/tree/avl/AVLTreeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+          <folding>
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#4463#4464#0" expanded="true" />
+            <element signature="e#4657#4658#0" expanded="true" />
+            <element signature="e#4734#4735#0" expanded="true" />
+            <element signature="e#4790#4791#0" expanded="true" />
+            <element signature="e#4860#4861#0" expanded="true" />
+            <element signature="e#4918#4919#0" expanded="true" />
+            <element signature="e#4992#4993#0" expanded="true" />
           </folding>
         </state>
       </provider>
