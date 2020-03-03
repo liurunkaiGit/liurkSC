@@ -23,7 +23,7 @@ public class Log4jController {
      * 测试日志打印
      */
     @GetMapping("/testLog")
-    public void testPringLog() {
+    public String testPringLog() {
         log.info("这是log4j.properties日志：info");
         log.debug("这是log4j.properties日志：debug");
         log.error("这是log4j.properties日志：error");
@@ -31,5 +31,6 @@ public class Log4jController {
         logger.error("hello world");
         logger.info("hello world");
         logger.debug("hello world");
+        return "success";
     }
 }
