@@ -7,5 +7,5 @@ spring:
   data:
     elasticsearch:
       cluster-name: es
-      # ÅäÖÃÎÄ¼şÖĞµÄ¶Ë¿ÚÊÇ9200£ºÊÇÍ¨¹ıhttpÁ¬½ÓµÄ¶Ë¿Ú£¬9300ÊÇTCPÁ¬½ÓµÄ¶Ë¿Ú
+      # é…ç½®æ–‡ä»¶ä¸­çš„ç«¯å£æ˜¯9200ï¼šæ˜¯é€šè¿‡httpè¿æ¥çš„ç«¯å£ï¼Œ9300æ˜¯TCPè¿æ¥çš„ç«¯å£
       cluster-nodes: localhost:9300

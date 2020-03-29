@@ -1,13 +1,16 @@
-package com.liu.datastructure.algorithm.prim;
+package com.liu.datastructure.algorithm.kruskal;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.Objects;
 
 /**
- * @Description: 普里姆算法
+ * @Description: 克鲁斯卡尔算法
  * @author: liurunkai
  * @Date: 2020/3/28 11:32
  */
-public class Prim {
+public class Kruskal {
     public static void main(String[] args) {
         char[] data = new char[]{'A', 'B', 'C', 'D', 'E', 'F', 'G'};
         int vertexNum = data.length;
@@ -20,15 +23,21 @@ public class Prim {
                 {-1, -1, -1, 4, 5, -1, 6},
                 {2, 3, -1, -1, 4, 6, -1},
         };
-        // 创建图
-        Graph graph = new Graph(vertexNum);
         // 创建最小生成树
-        minTree minTree = new minTree();
-        minTree.createMinTree(graph, vertexNum, data, edges);
+        minTree minTree = new minTree(vertexNum, data, edges);
         // 打印
-        minTree.show(graph);
-        // 测试普利姆算法
-        minTree.prim(graph,2);
+//        minTree.show();
+//        minTree.getEdgeNum();
+        // 获取边的集合
+        Edge[] edges1 = minTree.getEdges();
+//        System.out.println(Arrays.toString(edges1));
+        minTree.sort(edges1);
+//        System.out.println(Arrays.toString(edges1));
+//        // 测试克鲁斯卡尔算法
+        Edge[] kruskal = minTree.kruskal(edges1);
+        System.out.println(Arrays.toString(kruskal));
+//        Edge[] kruskal = minTree.kruskal();
+//        System.out.println(Arrays.toString(kruskal));
     }
 
 }
@@ -36,92 +45,174 @@ public class Prim {
 // 构造一棵最小生成树
 class minTree {
 
-    public void createMinTree(Graph graph, int vertexNum, char[] data, int[][] edges) {
-        graph.setData(data);
-        graph.setVertexNum(vertexNum);
-        graph.setEdges(edges);
-    }
-
-    public void show(Graph graph) {
-        for (int[] edge : graph.getEdges()) {
-            System.out.println(Arrays.toString(edge));
-        }
-    }
-
-    /**
-     * 普利姆算法解决修路路径最短问题
-     *
-     * @param graph 图
-     * @param vertexIndex 顶点的下标，从哪个顶点开始找最小生成树
-     */
-    public void prim(Graph graph, int vertexIndex) {
-        Integer max = Integer.MAX_VALUE; // 记录顶点之间最大值，是会不停变化的
-        int h1 = -1; // 记录最短路径(边)的一端顶点
-        int h2 = -1; // 记录最短路径(边)的另一端顶点
-        boolean[] visited = new boolean[graph.getVertexNum()]; // 记录顶点是否已经被访问，默认false，未访问
-        visited[vertexIndex] = true; //标注第vertexIndex个顶点被访问
-        for (int i = 0; i < graph.getVertexNum() - 1; i++) { // 生成边的个数，有vertexNum个顶点，即vertexNum - 1条边，所以遍历vertexNum - 1次
-            // 两次循环遍历寻找被访问过的顶点的最短路径
-            for (int j = 0; j < graph.getVertexNum(); j++) {
-                for (int z = 0; z < graph.getVertexNum(); z++) {
-                    /**
-                     * visited[j] 第j个顶点被访问过
-                     * visited[z] 第z个顶点未被访问过
-                     * graph.getEdges()[j][z] != -1 说明顶点与顶点之间是联通的
-                     * graph.getEdges()[j][z] < max 寻找以j为边的起始顶点，z为边的终止顶点的最短路径
-                     */
-                    if (visited[j] && !visited[z] && graph.getEdges()[j][z] != -1 && graph.getEdges()[j][z] < max) {
-                        // 将最短路径max重置为graph.getEdges()[j][z]
-                        max = graph.getEdges()[j][z];
-                        // 记录最短边的两个顶点下标
-                        h1 = j;
-                        h2 = z;
-                    }
-                }
-            }
-            // 当结束两次循环后，就找到最短的边
-            System.out.println("边：<" + graph.getData()[h1] + "," + graph.getData()[h2] + ">，权值" + graph.getEdges()[h1][h2]);
-            // 将h2标记为已访问
-            visited[h2] = true;
-            // 将max重置为最大
-            max = Integer.MAX_VALUE;
-        }
-    }
-}
-
-// 初始化图对象
-class Graph {
+    private int edgeNum; // 求边的数量
     private int vertexNum; //顶点个数
     private char[] data; //存放村庄
     private int[][] edges; //存放边，即村庄与村庄之间的距离，-1表示不连通
 
-    public Graph(int vertexNum) {
+    public minTree(int vertexNum, char[] data, int[][] edges) {
         this.vertexNum = vertexNum;
-        data = new char[vertexNum];
-        edges = new int[vertexNum][vertexNum];
-    }
-
-    public int getVertexNum() {
-        return vertexNum;
-    }
-
-    public void setVertexNum(int vertexNum) {
-        this.vertexNum = vertexNum;
-    }
-
-    public char[] getData() {
-        return data;
-    }
-
-    public void setData(char[] data) {
         this.data = data;
-    }
-
-    public int[][] getEdges() {
-        return edges;
-    }
-
-    public void setEdges(int[][] edges) {
         this.edges = edges;
+    }
+
+    public void show() {
+        for (int[] edge : this.edges) {
+            System.out.println(Arrays.toString(edge));
+        }
+    }
+
+    public int getEdgeNum() {
+        for (int i = 0; i < edges.length; i++) {
+            for (int j = 0; j < edges[0].length; j++) {
+                if (edges[i][j] != -1) {
+                    edgeNum++;
+                }
+            }
+        }
+        edgeNum = edgeNum / 2;
+//        System.out.println(edgeNum);
+        return edgeNum;
+    }
+
+    /**
+     * 获取所有的边的集合
+     *
+     * @return
+     */
+    public Edge[] getEdges() {
+        int index = 0; // 用于存放边集合的下标
+        Edge[] edges1 = new Edge[getEdgeNum()];
+        for (int i = 0; i < edges.length; i++) {
+            for (int j = i + 1; j < edges[0].length; j++) { // 因为是斜着对称的，边是无向的，所以不跟自己比较，即j=i+1
+                if (edges[i][j] != -1) {
+                    edges1[index++] = new Edge(data[i],data[j],edges[i][j]);
+                }
+            }
+        }
+        return edges1;
+    }
+
+    // 对边的集合进行从小到大排序
+    public void sort(Edge[] e) {
+        for (int i = 0; i < e.length - 1; i++) {
+            for (int j = 0; j < e.length - i - 1; j++) {
+                if (e[j].getWeight() > e[j+1].getWeight()) {
+                    Edge temp = e[j];
+                    e[j] = e[j+1];
+                    e[j+1] = temp;
+                }
+            }
+        }
+    }
+
+    /**
+     * 获取下标为i的顶点的终点，用于判断两个顶点的终点是否相同
+     * @param ends 记录了各个顶点对应的终点是哪个，ends数组是在遍历过程中逐步形成
+     * @param i 传入的顶点对应的下标
+     * @return 返回的是下标为i的这个顶点对应的终点的下标
+     */
+    public int getEnd(int[] ends, int i) {
+        while (ends[i] != 0) {
+            i = ends[i];
+        }
+        return i;
+    }
+
+    // 根据顶点返回对应的下标
+    public int getIndex(char vertex) {
+        for (int i = 0; i < data.length; i++) {
+            if (data[i] == vertex) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    // 克鲁斯卡尔算法
+    public Edge[] kruskal(Edge[] edges) {
+        int index = 0; //用于存放最小生成树的边的下标
+        int[] ends = new int[data.length]; // 用于存放顶点对应的终点的下标
+        Edge[] result = new Edge[data.length - 1]; // 用于存放结果，即存放最小生成树的所有边
+//        Edge[] edges = getEdges(); // 获取到图中的所有边
+//        sort(edges); //排序
+        for (int i = 0; i < edges.length; i++) {
+            int p1 = getIndex(edges[i].getStart()); // 用于记录边的一个端点的下标
+            int p2 = getIndex(edges[i].getEnd()); // 用于记录边的另一个端点的下标
+            int end1 = getEnd(ends, p1);  // 获取p1端点的终点
+            int end2 = getEnd(ends, p2); // 获取p2端点的终点
+            if (end1 != end2) { // 如果两个端点对应的终点不是同一个的话，说明这条边可以加进最小生成树的边的集合
+                ends[end1] = end2; // 设置end1在“已有最小生成树”中的终点为end2
+                result[index++] = edges[i]; // 将这条边加进最小生成树的边的集合
+            }
+        }
+        System.out.println(Arrays.toString(ends));
+        return result;
+    }
+
+    // 克鲁斯卡尔算法
+    public Edge[] kruskal() {
+        int index = 0; //用于存放最小生成树的边的下标
+        int[] ends = new int[data.length]; // 用于存放顶点对应的终点的下标
+        Edge[] result = new Edge[data.length - 1]; // 用于存放结果，即存放最小生成树的所有边
+        Edge[] edges = getEdges(); // 获取到图中的所有边
+        sort(edges); //排序
+        for (int i = 0; i < edges.length; i++) {
+            int p1 = getIndex(edges[i].getStart()); // 用于记录边的一个端点的下标
+            int p2 = getIndex(edges[i].getEnd()); // 用于记录边的另一个端点的下标
+            int end1 = getEnd(ends, p1);  // 获取p1端点的终点
+            int end2 = getEnd(ends, p2); // 获取p2端点的终点
+            if (end1 != end2) { // 如果两个端点对应的终点不是同一个的话，说明这条边可以加进最小生成树的边的集合
+                ends[end1] = end2; // 设置end1在“已有最小生成树”中的终点为end2
+                result[index++] = edges[i]; // 将这条边加进最小生成树的边的集合
+            }
+        }
+        return result;
+    }
+}
+
+// 边对象
+class Edge {
+    private char start; // 边的一个顶点
+    private char end; // 边的另一个顶点
+    private int weight; // 边的权值
+
+    public Edge(char start, char end, int weight) {
+        this.start = start;
+        this.end = end;
+        this.weight = weight;
+    }
+
+    public char getStart() {
+        return start;
+    }
+
+    public void setStart(char start) {
+        this.start = start;
+    }
+
+    public char getEnd() {
+        return end;
+    }
+
+    public void setEnd(char end) {
+        this.end = end;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    @Override
+    public String toString() {
+        return "Edge{" +
+                "start=" + start +
+                ", end=" + end +
+                ", weight=" + weight +
+                '}';
     }
 }

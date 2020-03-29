@@ -15,6 +15,7 @@
     <file url="file://$PROJECT_DIR$/dubbo-user-service-provider/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dynamic-more-schedule" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elk" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elk/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/log4j2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shiro" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shiro-thymeleaf" charset="UTF-8" />

@@ -1,4 +1,4 @@
-package com.liu.datastructure.algorithm;
+package com.liu.datastructure.algorithm.greedy;
 
 import java.util.*;
 
