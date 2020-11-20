@@ -20,7 +20,7 @@ public class Log4jController {
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @GetMapping("/testLog")
-    public void testPringLog(){
+    public String testPringLog(){
         log.info("这是log4j.properties日志：info");
         log.debug("这是log4j.properties日志：debug");
         log.error("这是log4j.properties日志：error");
@@ -28,5 +28,6 @@ public class Log4jController {
         logger.error("hello world error");
         logger.info("hello world info");
         logger.debug("hello world debug");
+        return "log";
     }
 }

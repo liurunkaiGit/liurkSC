@@ -40,3 +40,6 @@
             <input type="submit" value="修改">
         </form>
     </div>
+8. shiro自定义过滤器实现并发登录人数控制
+    编写自定义过滤器KickoutSessionControlFilter，继承AccessControlFilter
+    在shiroConfig中配置该过滤器

@@ -1,17 +1,28 @@
 package com.liu.shirothymeleaf.controller;
 
+import com.liu.shirothymeleaf.bean.SysUser;
+import com.liu.shirothymeleaf.shiro.ShiroConstants;
+import com.liu.shirothymeleaf.shiro.session.OnlineSession;
+import com.liu.shirothymeleaf.shiro.session.OnlineSessionDAO;
+import com.liu.shirothymeleaf.util.ShiroUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.IncorrectCredentialsException;
 import org.apache.shiro.authc.UnknownAccountException;
 import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.Subject;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.context.request.RequestContextHolder;
+import org.springframework.web.context.request.ServletRequestAttributes;
+
+import javax.servlet.http.HttpServletRequest;
 
 /**
  * @Description:
@@ -74,6 +85,10 @@ public class LoginController {
         UsernamePasswordToken token = new UsernamePasswordToken(userName, password);
         // 3. 执行登录方法
         try {
+            // 获取登录时的jessionId
+            HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
+            String requestedSessionId = request.getRequestedSessionId();
+            log.info("登录的sessionId是：{}",requestedSessionId);
             //执行这个方法会去ShiroRealm里面执行doGetAuthenticationInfo认证方法
             subject.login(token);
             // 如果没有异常说明登陆成功并跳转到首页

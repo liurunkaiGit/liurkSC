@@ -12,6 +12,8 @@ import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.util.Arrays;
+
 /**
  * @Description: 自定义realm
  * @author: liurunkai
@@ -38,7 +40,7 @@ public class ShiroRealm extends AuthorizingRealm {
         Subject subject = SecurityUtils.getSubject();
         SysUser sysUser = (SysUser) subject.getPrincipal();
         // 给资源添加授权字符串
-        authorizationInfo.addStringPermission(sysUser.getPerms());
+        authorizationInfo.addStringPermissions(Arrays.asList(sysUser.getPerms().split(",")));
         return authorizationInfo;
     }
 
@@ -61,5 +63,12 @@ public class ShiroRealm extends AuthorizingRealm {
         }
         // 判断密码进行验证，当验证通过后通过第一个参数（sysUser）将用户信息返回，以便通过securityUtils.getSubject()来获取当前登录用户信息
         return new SimpleAuthenticationInfo(sysUser, sysUser.getPassword(), sysUser.getUsername());
+    }
+
+    /**
+     * 清理缓存权限
+     */
+    public void clearCachedAuthorizationInfo() {
+        this.clearCachedAuthorizationInfo(SecurityUtils.getSubject().getPrincipals());
     }
 }

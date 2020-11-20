@@ -37,4 +37,5 @@ public class SysUser implements Serializable {
      * 权限
      */
     private String perms;
+
 }
